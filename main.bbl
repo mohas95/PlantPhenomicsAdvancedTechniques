@@ -1,0 +1,711 @@
+\begin{thebibliography}{109}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Mirzabaev et~al.(2023)Mirzabaev, Olsson, Kerr, Pradhan, Ferre, and Lotze-Campen]{Mirzabaev2023}
+Alisher Mirzabaev, Lennart Olsson, Rachel~Bezner Kerr, Prajal Pradhan, Marta Guadalupe~Rivera Ferre, and Hermann Lotze-Campen.
+\newblock \emph{Climate Change and Food Systems}, pages 511--529.
+\newblock Springer International Publishing, Cham, 2023.
+\newblock ISBN 978-3-031-15703-5.
+\newblock \doi{10.1007/978-3-031-15703-5_27}.
+
+\bibitem[O'Sullivan et~al.(2019)O'Sullivan, Bonnett, McIntyre, Hochman, and Wasson]{OSULLIVAN2019133}
+C.A. O'Sullivan, G.D. Bonnett, C.L. McIntyre, Z.~Hochman, and A.P. Wasson.
+\newblock Strategies to improve the productivity, product diversity and profitability of urban agriculture.
+\newblock \emph{Agricultural Systems}, 174:\penalty0 133--144, 2019.
+\newblock ISSN 0308-521X.
+\newblock \doi{10.1016/j.agsy.2019.05.007}.
+
+\bibitem[Benke and Tomkins(2017)]{KurtBenke10.1080/15487733.2017.1394054}
+Kurt Benke and Bruce Tomkins.
+\newblock Future food-production systems: vertical farming and controlled-environment agriculture.
+\newblock \emph{Sustainability: Science, Practice and Policy}, 13\penalty0 (1):\penalty0 13--26, 2017.
+\newblock \doi{10.1080/15487733.2017.1394054}.
+
+\bibitem[Halperin et~al.(2017)Halperin, Gebremedhin, Wallach, and Moshelion]{Halperin/10.1111/tpj.13425}
+Ofer Halperin, Alem Gebremedhin, Rony Wallach, and Menachem Moshelion.
+\newblock High-throughput physiological phenotyping and screening system for the characterization of plant--environment interactions.
+\newblock \emph{The Plant Journal}, 89\penalty0 (4):\penalty0 839--850, 2017.
+\newblock \doi{10.1111/tpj.13425}.
+
+\bibitem[Henry(2020)]{HENRY2020168}
+Robert~J Henry.
+\newblock Innovations in plant genetics adapting agriculture to climate change.
+\newblock \emph{Current Opinion in Plant Biology}, 56:\penalty0 168--173, 2020.
+\newblock ISSN 1369-5266.
+\newblock \doi{10.1016/j.pbi.2019.11.004}.
+\newblock Biotic interactions AGRI 2019.
+
+\bibitem[Langstroff et~al.(2022)Langstroff, Heuermann, Stahl, and Junker]{langstroff2022opportunities}
+Anna Langstroff, Marc~C Heuermann, Andreas Stahl, and Astrid Junker.
+\newblock Opportunities and limits of controlled-environment plant phenotyping for climate response traits.
+\newblock \emph{Theoretical and Applied Genetics}, 135\penalty0 (1):\penalty0 1--16, 2022.
+\newblock \doi{10.1007/s00122-021-03892-1}.
+
+\bibitem[Bapat et~al.(2023)Bapat, Kavi~Kishor, Jalaja, Jain, and Penna]{agronomy13030858}
+Vishwas~Anant Bapat, P.~B. Kavi~Kishor, Naravula Jalaja, Shri~Mohan Jain, and Suprasanna Penna.
+\newblock Plant cell cultures: Biofactories for the production of bioactive compounds.
+\newblock \emph{Agronomy}, 13\penalty0 (3), 2023.
+\newblock ISSN 2073-4395.
+\newblock \doi{10.3390/agronomy13030858}.
+
+\bibitem[Yang et~al.(2023)Yang, Hassan, Awasthi, Gajendran, Sharma, Ji, and Salama]{YANG2023102267}
+Yang Yang, Sedky~H.A. Hassan, Mukesh~Kumar Awasthi, Babu Gajendran, Monika Sharma, Min-Kyu Ji, and El-Sayed Salama.
+\newblock The recent progress on the bioactive compounds from algal biomass for human health applications.
+\newblock \emph{Food Bioscience}, 51:\penalty0 102267, 2023.
+\newblock ISSN 2212-4292.
+\newblock \doi{10.1016/j.fbio.2022.102267}.
+
+\bibitem[Nguyen et~al.(2023)Nguyen, Knowling, Tran, Burgess, Fisk, Watt, Escrib{\'a}-Gelonch, This, Culton, and Hessel]{NGUYEN2023708}
+Mai Trinh~Phuong Nguyen, Matthew Knowling, Nam~N. Tran, Alexandra Burgess, Ian Fisk, Michelle Watt, Marc Escrib{\'a}-Gelonch, Herve This, John Culton, and Volker Hessel.
+\newblock Space farming: Horticulture systems on spacecraft and outlook to planetary space exploration.
+\newblock \emph{Plant Physiology and Biochemistry}, 194:\penalty0 708--721, 2023.
+\newblock ISSN 0981-9428.
+\newblock \doi{10.1016/j.plaphy.2022.12.017}.
+
+\bibitem[Lefers et~al.(2020)Lefers, Tester, and Lauersen]{10.3389/fpls.2020.00801}
+Ryan~M. Lefers, Mark Tester, and Kyle~J. Lauersen.
+\newblock Emerging technologies to enable sustainable controlled environment agriculture in the extreme environments of middle east-north africa coastal regions.
+\newblock \emph{Frontiers in Plant Science}, 11, 2020.
+\newblock ISSN 1664-462X.
+\newblock \doi{10.3389/fpls.2020.00801}.
+
+\bibitem[Zabel et~al.(2020)Zabel, Zeidler, Vrakking, Dorn, and Schubert]{10.3389/fpls.2020.00656}
+Paul Zabel, Conrad Zeidler, Vincent Vrakking, Markus Dorn, and Daniel Schubert.
+\newblock Biomass production of the eden iss space greenhouse in antarctica during the 2018 experiment phase.
+\newblock \emph{Frontiers in Plant Science}, 11, 2020.
+\newblock ISSN 1664-462X.
+\newblock \doi{10.3389/fpls.2020.00656}.
+
+\bibitem[Benes et~al.(2020)Benes, Guan, Lang, Long, Lynch, Marshall-Colón, Peng, Schnable, Sweetlove, and Turk]{10.1111/tpj.14722}
+Bedrich Benes, Kaiyu Guan, Meagan Lang, Stephen~P. Long, Jonathan~P. Lynch, Amy Marshall-Colón, Bin Peng, James Schnable, Lee~J. Sweetlove, and Matthew~J. Turk.
+\newblock Multiscale computational models can guide experimentation and targeted measurements for crop improvement.
+\newblock \emph{The Plant Journal}, 103\penalty0 (1):\penalty0 21--31, 2020.
+\newblock \doi{10.1111/tpj.14722}.
+
+\bibitem[Hoshmand(2006)]{hoshmand2018design}
+Reza Hoshmand.
+\newblock \emph{Design of experiments for agriculture and the natural sciences}.
+\newblock Chapman and Hall/CRC, 2006.
+\newblock \doi{10.1201/9781315276021}.
+
+\bibitem[Bender(1989)]{bender2020statistical}
+Filmore~E Bender.
+\newblock \emph{Statistical methods for food and agriculture}.
+\newblock CRC Press, 1989.
+\newblock \doi{10.1201/9781003073116}.
+
+\bibitem[Fenu and Malloci(2021)]{bdcc5010002}
+Gianni Fenu and Francesca~Maridina Malloci.
+\newblock Forecasting plant and crop disease: An explorative study on current algorithms.
+\newblock \emph{Big Data and Cognitive Computing}, 5\penalty0 (1), 2021.
+\newblock ISSN 2504-2289.
+
+\bibitem[Basso et~al.(2016)Basso, Liu, and Ritchie]{BASSO201627}
+Bruno Basso, Lin Liu, and Joe~T. Ritchie.
+\newblock A comprehensive review of the ceres-wheat, -maize and -rice models' performances.
+\newblock In Donald~L. Sparks, editor, \emph{Advances in Agronomy}, volume 136 of \emph{Advances in Agronomy}, pages 27--132. Academic Press, 2016.
+\newblock \doi{10.1016/bs.agron.2015.11.004}.
+
+\bibitem[Jones et~al.(2003)Jones, Hoogenboom, Porter, Boote, Batchelor, Hunt, Wilkens, Singh, Gijsman, and Ritchie]{JONES2003235}
+J.W Jones, G~Hoogenboom, C.H Porter, K.J Boote, W.D Batchelor, L.A Hunt, P.W Wilkens, U~Singh, A.J Gijsman, and J.T Ritchie.
+\newblock The dssat cropping system model.
+\newblock \emph{European Journal of Agronomy}, 18\penalty0 (3):\penalty0 235--265, 2003.
+\newblock ISSN 1161-0301.
+\newblock \doi{10.1016/S1161-0301(02)00107-7}.
+\newblock Modelling Cropping Systems: Science, Software and Applications.
+
+\bibitem[N’guessan et~al.(2023)N’guessan, Adahi, Konan-Waidhet, Masayoshi, and Assidjo]{NGUESSAN2023276}
+Konan Jean-Yves N’guessan, Botou Adahi, Arthur-Brice Konan-Waidhet, Satoh Masayoshi, and Nogbou~Emmanuel Assidjo.
+\newblock Assessment of climate change impact on water requirement and rice productivity.
+\newblock \emph{Rice Science}, 30\penalty0 (4):\penalty0 276--293, 2023.
+\newblock ISSN 1672-6308.
+\newblock \doi{10.1016/j.rsci.2023.03.010}.
+
+\bibitem[MacKay(2003)]{mackay2003information}
+David~JC MacKay.
+\newblock \emph{Information theory, inference and learning algorithms}.
+\newblock Cambridge university press, 2003.
+\newblock \doi{10.1017/S026357470426043X}.
+
+\bibitem[McElreath(2018)]{mcelreath2018statistical}
+Richard McElreath.
+\newblock \emph{Statistical rethinking: A Bayesian course with examples in R and Stan}.
+\newblock Chapman and Hall/CRC, 2018.
+\newblock \doi{10.1201/9781315372495}.
+
+\bibitem[Walter et~al.(2015)Walter, Liebisch, and Hund]{walter2015plant}
+Achim Walter, Frank Liebisch, and Andreas Hund.
+\newblock Plant phenotyping: from bean weighing to image analysis.
+\newblock \emph{Plant methods}, 11:\penalty0 1--11, 2015.
+\newblock \doi{10.1186/s13007-015-0056-8}.
+
+\bibitem[Li et~al.(2021)Li, Quan, Song, Li, Yu, Li, and Muhammad]{10.3389/fbioe.2020.623705}
+Daoliang Li, Chaoqun Quan, Zhaoyang Song, Xiang Li, Guanghui Yu, Cheng Li, and Akhter Muhammad.
+\newblock High-throughput plant phenotyping platform (ht3p) as a novel tool for estimating agronomic traits from the lab to the field.
+\newblock \emph{Frontiers in Bioengineering and Biotechnology}, 8, 2021.
+\newblock ISSN 2296-4185.
+\newblock \doi{10.3389/fbioe.2020.623705}.
+
+\bibitem[Sari{\'c} et~al.(2022)Sari{\'c}, Nguyen, Burge, Berkowitz, Trt{\'\i}lek, Whelan, Lewsey, and {\v{C}}ustovi{\'c}]{saric2022applications}
+Rijad Sari{\'c}, Viet~D Nguyen, Timothy Burge, Oliver Berkowitz, Martin Trt{\'\i}lek, James Whelan, Mathew~G Lewsey, and Edhem {\v{C}}ustovi{\'c}.
+\newblock Applications of hyperspectral imaging in plant phenotyping.
+\newblock \emph{Trends in plant science}, 27\penalty0 (3):\penalty0 301--315, 2022.
+\newblock \doi{10.1016/j.tplants.2021.12.003}.
+
+\bibitem[Forero et~al.(2022)Forero, Murcia, M{\'e}ndez, and Betancourt-Lozano]{plants11172199}
+Manuel~G. Forero, Harold~F. Murcia, Dehyro M{\'e}ndez, and Juan Betancourt-Lozano.
+\newblock Lidar platform for acquisition of 3d plant phenotyping database.
+\newblock \emph{Plants}, 11\penalty0 (17), 2022.
+\newblock ISSN 2223-7747.
+\newblock \doi{10.3390/plants11172199}.
+
+\bibitem[Wen et~al.(2023)Wen, Li, Wang, Gao, Hao, and Song]{WEN2023165626}
+Ting Wen, Jian-Hong Li, Qi~Wang, Yang-Yang Gao, Ge-Fei Hao, and Bao-An Song.
+\newblock Thermal imaging: The digital eye facilitates high-throughput phenotyping traits of plant growth and stress responses.
+\newblock \emph{Science of The Total Environment}, 899:\penalty0 165626, 2023.
+\newblock ISSN 0048-9697.
+\newblock \doi{10.1016/j.scitotenv.2023.165626}.
+
+\bibitem[Das~Choudhury et~al.(2019)Das~Choudhury, Samal, and Awada]{10.3389/fpls.2019.00508}
+Sruti Das~Choudhury, Ashok Samal, and Tala Awada.
+\newblock Leveraging image analysis for high-throughput plant phenotyping.
+\newblock \emph{Frontiers in Plant Science}, 10, 2019.
+\newblock ISSN 1664-462X.
+\newblock \doi{10.3389/fpls.2019.00508}.
+
+\bibitem[Olas et~al.(2019)Olas, Fichtner, and Apelt]{10.1093/jxb/erz406}
+Justyna~Jadwiga Olas, Franziska Fichtner, and Federico Apelt.
+\newblock All roads lead to growth: imaging-based and biochemical methods to measure plant growth.
+\newblock \emph{Journal of Experimental Botany}, 71\penalty0 (1):\penalty0 11--21, 09 2019.
+\newblock ISSN 0022-0957.
+\newblock \doi{10.1093/jxb/erz406}.
+
+\bibitem[Singh et~al.(2016)Singh, Ganapathysubramanian, Singh, and Sarkar]{singh2016machine}
+Arti Singh, Baskar Ganapathysubramanian, Asheesh~Kumar Singh, and Soumik Sarkar.
+\newblock Machine learning for high-throughput stress phenotyping in plants.
+\newblock \emph{Trends in plant science}, 21\penalty0 (2):\penalty0 110--124, 2016.
+\newblock \doi{10.1016/j.tplants.2015.10.015}.
+
+\bibitem[Sun et~al.(2020)Sun, Li, Chee, Paterson, Jiang, Xu, Robertson, Adhikari, and Shehzad]{SUN2020195}
+Shangpeng Sun, Changying Li, Peng~W. Chee, Andrew~H. Paterson, Yu~Jiang, Rui Xu, Jon~S. Robertson, Jeevan Adhikari, and Tariq Shehzad.
+\newblock Three-dimensional photogrammetric mapping of cotton bolls in situ based on point cloud segmentation and clustering.
+\newblock \emph{ISPRS Journal of Photogrammetry and Remote Sensing}, 160:\penalty0 195--207, 2020.
+\newblock ISSN 0924-2716.
+\newblock \doi{10.1016/j.isprsjprs.2019.12.011}.
+
+\bibitem[Sun et~al.(2023)Sun, Zhang, Sun, Li, Yu, Miao, Zhang, Li, Zhao, Hu, Xin, Chen, and Zhu]{Sun2023soybeanmvs}
+Yongzhe Sun, Zhixin Zhang, Kai Sun, Shuai Li, Jianglin Yu, Linxiao Miao, Zhanguo Zhang, Yang Li, Hongjie Zhao, Zhenbang Hu, Dawei Xin, Qingshan Chen, and Rongsheng Zhu.
+\newblock Soybean-mvs: Annotated three-dimensional model dataset of whole growth period soybeans for 3d plant organ segmentation.
+\newblock \emph{Agriculture}, 13\penalty0 (7), 2023.
+\newblock ISSN 2077-0472.
+\newblock \doi{10.3390/agriculture13071321}.
+
+\bibitem[Schunck et~al.(2021)Schunck, Magistri, Rosu, Corneli{\ss}en, Chebrolu, Paulus, L{\'e}on, Behnke, Stachniss, Kuhlmann, and Klingbeil]{10.1371/journal.pone.0256340}
+David Schunck, Federico Magistri, Radu~Alexandru Rosu, Andr{\'e} Corneli{\ss}en, Nived Chebrolu, Stefan Paulus, Jens L{\'e}on, Sven Behnke, Cyrill Stachniss, Heiner Kuhlmann, and Lasse Klingbeil.
+\newblock Pheno4d: A spatio-temporal dataset of maize and tomato plant point clouds for phenotyping and advanced plant analysis.
+\newblock \emph{PLOS ONE}, 16\penalty0 (8):\penalty0 1--18, 08 2021.
+\newblock \doi{10.1371/journal.pone.0256340}.
+
+\bibitem[Sultan et~al.(2020)Sultan, Snider, Conn, Li, Topp, and Navlakha]{doi:10.34133/2020/2073723}
+Sam Sultan, Joseph Snider, Adam Conn, Mao Li, Christopher~N. Topp, and Saket Navlakha.
+\newblock A statistical growth property of plant root architectures.
+\newblock \emph{Plant Phenomics}, 2020, 2020.
+\newblock \doi{10.34133/2020/2073723}.
+\newblock URL \url{http://plant3d.navlakhalab.net/roots/}.
+
+\bibitem[Uchiyama et~al.(2017)Uchiyama, Sakurai, Mishima, Arita, Okayasu, Shimada, and Taniguchi]{Uchiyama2017Komatsuna}
+Hideaki Uchiyama, Shunsuke Sakurai, Masashi Mishima, Daisaku Arita, Takashi Okayasu, Atsushi Shimada, and Rin-ichiro Taniguchi.
+\newblock An easy-to-setup 3d phenotyping platform for komatsuna dataset.
+\newblock In \emph{2017 IEEE International Conference on Computer Vision Workshops (ICCVW)}, pages 2038--2045, 2017.
+\newblock \doi{10.1109/ICCVW.2017.239}.
+
+\bibitem[Jayasuriya et~al.(2024)Jayasuriya, Ghannoum, Hu, Klause, Liang, and Guo]{JAYASURIYA2024110735}
+Namal Jayasuriya, Oula Ghannoum, Wen Hu, Norbert Klause, Weiguang Liang, and Yi~Guo.
+\newblock Pc4c\_capsi: Image data of capsicum plant growth in protected horticulture.
+\newblock \emph{Data in Brief}, 55:\penalty0 110735, 2024.
+\newblock ISSN 2352-3409.
+\newblock \doi{10.1016/j.dib.2024.110735}.
+
+\bibitem[Shadrin et~al.(2018)Shadrin, Kulikov, and Fedorov]{Shadrin2018InstanceSF}
+Dmitrii~G. Shadrin, Victor Kulikov, and Maxim~V. Fedorov.
+\newblock Instance segmentation for assessment of plant growth dynamics in artificial soilless conditions.
+\newblock In \emph{British Machine Vision Conference}, 2018.
+
+\bibitem[Genze et~al.(2024)Genze, Vahl, Groth, Wirth, Grieb, and Grimm]{genze2024manually}
+Nikita Genze, Wouter~K Vahl, Jennifer Groth, Maximilian Wirth, Michael Grieb, and Dominik~G Grimm.
+\newblock Manually annotated and curated dataset of diverse weed species in maize and sorghum for computer vision.
+\newblock \emph{Scientific Data}, 11\penalty0 (1):\penalty0 109, 2024.
+\newblock \doi{10.1038/s41597-024-02945-6}.
+
+\bibitem[Thoday-Kennedy et~al.(2023)Thoday-Kennedy, Dimech, Joshi, Daetwyler, Hudson, Spangenberg, Hayden, and Kant]{THODAYKENNEDY2023108787}
+Emily Thoday-Kennedy, Adam~M. Dimech, Sameer Joshi, Hans~D. Daetwyler, David Hudson, German Spangenberg, Matthew Hayden, and Surya Kant.
+\newblock An image dataset of diverse safflower (carthamus tinctorius l.) genotypes for salt response phenotyping.
+\newblock \emph{Data in Brief}, 46:\penalty0 108787, 2023.
+\newblock ISSN 2352-3409.
+\newblock \doi{10.1016/j.dib.2022.108787}.
+
+\bibitem[L{\"a}rm et~al.(2023)L{\"a}rm, Bauer, Hermes, van~der Kruk, Vereecken, Vanderborght, Nguyen, Lopez, Seidel, Ewert, et~al.]{larm2023multi}
+Lena L{\"a}rm, Felix~Maximilian Bauer, Normen Hermes, Jan van~der Kruk, Harry Vereecken, Jan Vanderborght, Thuy~Huu Nguyen, Gina Lopez, Sabine~Julia Seidel, Frank Ewert, et~al.
+\newblock Multi-year belowground data of minirhizotron facilities in selhausen.
+\newblock \emph{Scientific Data}, 10\penalty0 (1):\penalty0 672, 2023.
+\newblock \doi{10.1038/s41597-023-02570-9}.
+
+\bibitem[Parmentier et~al.(2021)Parmentier, Nilsen, T{\o}mmervik, and Cooper]{essd-13-3593-2021}
+F.-J.~W. Parmentier, L.~Nilsen, H.~T{\o}mmervik, and E.~J. Cooper.
+\newblock A distributed time-lapse camera network to track vegetation phenology with high temporal detail and at varying scales.
+\newblock \emph{Earth System Science Data}, 13\penalty0 (7):\penalty0 3593--3606, 2021.
+\newblock \doi{10.5194/essd-13-3593-2021}.
+
+\bibitem[Craig et~al.(2022)Craig, Earl, Sulik, and Lee]{craig2022hyperspectral}
+Valerie Craig, Hugh Earl, John Sulik, and Elizabeth~A Lee.
+\newblock Hyperspectral time series datasets of maize during the grain filling period.
+\newblock \emph{BMC Research Notes}, 15\penalty0 (1):\penalty0 152, 2022.
+\newblock \doi{10.1186/s13104-022-06029-9}.
+
+\bibitem[D{\'e}pigny et~al.(2018)D{\'e}pigny, Tchotang, Talla, Fofack, Essom{\'e}, Ebongu{\'e}, Kengni, and Lescot]{DEPIGNY2018671}
+Sylvain D{\'e}pigny, Fr{\'e}d{\'e}ric Tchotang, M{\'e}dard Talla, D{\'e}sir{\'e}e Fofack, David Essom{\'e}, Jean-Pierre Ebongu{\'e}, Bernard Kengni, and Thierry Lescot.
+\newblock The 'plantain-optim' dataset: Agronomic traits of 405 plantains every 15 days from planting to harvest.
+\newblock \emph{Data in Brief}, 17:\penalty0 671--680, 2018.
+\newblock ISSN 2352-3409.
+\newblock \doi{10.1016/j.dib.2018.01.065}.
+
+\bibitem[Ngaba et~al.(2023)Ngaba, Christina, Mansuy, Chetty, Soul{\'e}, Schwartz, Heuclin, and Auzoux]{NGABA2023109244}
+Billy Ngaba, Mathias Christina, Aliz{\'e} Mansuy, Julien Chetty, Mathilde Soul{\'e}, Marion Schwartz, Benjamin Heuclin, and Sandrine Auzoux.
+\newblock Experimental dataset of sugarcane-cover crop intercropping trials to control weeds in reunion island.
+\newblock \emph{Data in Brief}, 48:\penalty0 109244, 2023.
+\newblock ISSN 2352-3409.
+\newblock \doi{10.1016/j.dib.2023.109244}.
+
+\bibitem[Newman and Furbank(2021)]{newman2021multiple}
+Saul~Justin Newman and Robert~T Furbank.
+\newblock A multiple species, continent-wide, million-phenotype agronomic plant dataset.
+\newblock \emph{Scientific data}, 8\penalty0 (1):\penalty0 116, 2021.
+\newblock \doi{10.1038/s41597-021-00898-8}.
+
+\bibitem[Campbell et~al.(2021)Campbell, Middleton, Huemmrich, Ward, Julitta, Yang, {van der Tol}, Daughtry, Russ, Alfieri, and Kustas]{CAMPBELL2021107600}
+Petya Campbell, Elizabeth Middleton, Karl Huemmrich, Lauren Ward, Tommaso Julitta, Peiqi Yang, Christiaan {van der Tol}, Craig Daughtry, Andrew Russ, Joseph Alfieri, and William Kustas.
+\newblock Scaling photosynthetic function and co2 dynamics from leaf to canopy level for maize -- dataset combining diurnal and seasonal measurements of vegetation fluorescence, reflectance and vegetation indices with canopy gross ecosystem productivity.
+\newblock \emph{Data in Brief}, 39:\penalty0 107600, 2021.
+\newblock ISSN 2352-3409.
+\newblock \doi{10.1016/j.dib.2021.107600}.
+
+\bibitem[Manjarrez-Sanchez and Martinez-Carrillo(2020)]{MANJARREZSANCHEZ2020106274}
+Jorge Manjarrez-Sanchez and Gerardo Martinez-Carrillo.
+\newblock Dataset of photosynthesis and photosynthetic factors measurements of greenhouse tomato.
+\newblock \emph{Data in Brief}, 32:\penalty0 106274, 2020.
+\newblock ISSN 2352-3409.
+\newblock \doi{10.1016/j.dib.2020.106274}.
+
+\bibitem[Niu et~al.(2022)Niu, Li, Huang, Huang, Huang, Su, and Yuan]{essd-14-2851-2022}
+Q.~Niu, X.~Li, J.~Huang, H.~Huang, X.~Huang, W.~Su, and W.~Yuan.
+\newblock A 30\,m annual maize phenology dataset from 1985 to 2020 in china.
+\newblock \emph{Earth System Science Data}, 14\penalty0 (6):\penalty0 2851--2864, 2022.
+\newblock \doi{10.5194/essd-14-2851-2022}.
+
+\bibitem[Zhu et~al.(2024)Zhu, Dai, Wang, Alatalo, Liu, Hao, and Ge]{essd-16-277-2024}
+M.~Zhu, J.~Dai, H.~Wang, J.~M. Alatalo, W.~Liu, Y.~Hao, and Q.~Ge.
+\newblock Mapping 24 woody plant species phenology and ground forest phenology over china from 1951 to 2020.
+\newblock \emph{Earth System Science Data}, 16\penalty0 (1):\penalty0 277--293, 2024.
+\newblock \doi{10.5194/essd-16-277-2024}.
+
+\bibitem[Mergner et~al.(2020)Mergner, Frejno, Messerer, Lang, Samaras, Wilhelm, Mayer, Schwechheimer, and Kuster]{mergner2020proteomic}
+Julia Mergner, Martin Frejno, Maxim Messerer, Daniel Lang, Patroklos Samaras, Mathias Wilhelm, Klaus~FX Mayer, Claus Schwechheimer, and Bernhard Kuster.
+\newblock Proteomic and transcriptomic profiling of aerial organ development in arabidopsis.
+\newblock \emph{Scientific Data}, 7\penalty0 (1):\penalty0 334, 2020.
+\newblock \doi{10.1038/s41597-020-00678-w}.
+
+\bibitem[Castro et~al.(2020)Castro, Maddox, Rodr{\'i}guez, Castro, Im{\'a}n-Correa, Cobos, Paredes, Marapara, Braga, and Adrianz{\'e}n]{CASTRO2020105834}
+Juan~C. Castro, J.~Dylan Maddox, Hicler~N. Rodr{\'i}guez, Carlos~G. Castro, Sixto~A. Im{\'a}n-Correa, Marianela Cobos, Jae~D. Paredes, Jorge~L. Marapara, Janeth Braga, and Pedro~M. Adrianz{\'e}n.
+\newblock Dataset of de novo assembly and functional annotation of the transcriptome during germination and initial growth of seedlings of myrciaria dubia "camu-camu".
+\newblock \emph{Data in Brief}, 31:\penalty0 105834, 2020.
+\newblock ISSN 2352-3409.
+\newblock \doi{10.1016/j.dib.2020.105834}.
+
+\bibitem[Peng et~al.(2024)Peng, Jia, Meng, Wang, Zhang, Li, and Wan]{peng2024transcriptome}
+Zhenying Peng, Kai-Hua Jia, Jingjing Meng, Jianguo Wang, Jialei Zhang, Xinguo Li, and Shubo Wan.
+\newblock Transcriptome profiling of aerial and subterranean peanut pod development.
+\newblock \emph{Scientific Data}, 11\penalty0 (1):\penalty0 364, 2024.
+\newblock \doi{10.1038/s41597-024-03205-3}.
+
+\bibitem[Ge et~al.(2016)Ge, Bai, Stoerger, and Schnable]{GE2016625}
+Yufeng Ge, Geng Bai, Vincent Stoerger, and James~C. Schnable.
+\newblock Temporal dynamics of maize plant growth, water use, and leaf water content using automated high throughput rgb and hyperspectral imaging.
+\newblock \emph{Computers and Electronics in Agriculture}, 127:\penalty0 625--632, 2016.
+\newblock ISSN 0168-1699.
+\newblock \doi{10.1016/j.compag.2016.07.028}.
+
+\bibitem[Anche et~al.(2023)Anche, Morales, Kaczmar, Santantonio, Gore, and Robbins]{anche2023scalable}
+Mahlet~T. Anche, Nicholas Morales, Nicholas~S. Kaczmar, Nicholas Santantonio, Michael~A. Gore, and Kelly~R. Robbins.
+\newblock Scalable growth models for time-series multispectral images.
+\newblock \emph{The Plant Phenome Journal}, 6\penalty0 (1):\penalty0 e20064, 2023.
+\newblock \doi{10.1002/ppj2.20064}.
+
+\bibitem[Anche et~al.(2020)Anche, Kaczmar, Morales, Clohessy, Ilut, Gore, and Robbins]{anche2020temporal}
+Mahlet~T Anche, Nicholas~S Kaczmar, Nicolas Morales, James~W Clohessy, Daniel~C Ilut, Michael~A Gore, and Kelly~R Robbins.
+\newblock Temporal covariance structure of multi-spectral phenotypes and their predictive ability for end-of-season traits in maize.
+\newblock \emph{Theoretical and Applied Genetics}, 133:\penalty0 2853--2868, 2020.
+\newblock \doi{10.1007/s00122-020-03637-6}.
+
+\bibitem[Sun et~al.(2018)Sun, Li, Paterson, Jiang, Xu, Robertson, Snider, and Chee]{sun2018field}
+Shangpeng Sun, Changying Li, Andrew~H Paterson, Yu~Jiang, Rui Xu, Jon~S Robertson, John~L Snider, and Peng~W Chee.
+\newblock In-field high throughput phenotyping and cotton plant growth analysis using lidar.
+\newblock \emph{Frontiers in Plant Science}, 9:\penalty0 16, 2018.
+\newblock \doi{10.3389/fpls.2018.00016}.
+
+\bibitem[P{\'e}rez-Valencia et~al.(2022)P{\'e}rez-Valencia, Rodr{\'i}guez-{\'A}lvarez, Boer, Kronenberg, Hund, Cabrera-Bosquet, Millet, and van Eeuwijk]{Perez-Valencia2022}
+Diana~M. P{\'e}rez-Valencia, Mar{\'i}a~Xos{\'e} Rodr{\'i}guez-{\'A}lvarez, Martin~P. Boer, Lukas Kronenberg, Andreas Hund, Lloren{\c{c}} Cabrera-Bosquet, Emilie~J. Millet, and Fred~A. van Eeuwijk.
+\newblock A two-stage approach for the spatio-temporal analysis of high-throughput phenotyping data.
+\newblock \emph{Scientific Reports}, 12\penalty0 (1):\penalty0 3177, 2022.
+\newblock ISSN 2045-2322.
+\newblock \doi{10.1038/s41598-022-06935-9}.
+
+\bibitem[Kar et~al.(2020)Kar, Garin, Kholov{\'a}, Vadez, Durbha, Tanaka, Iwata, Urban, and Adinarayana]{SpaTemHTP}
+Soumyashree Kar, Vincent Garin, Jana Kholov{\'a}, Vincent Vadez, Surya~S. Durbha, Ryokei Tanaka, Hiroyoshi Iwata, Milan~O. Urban, and J.~Adinarayana.
+\newblock Spatemhtp: A data analysis pipeline for efficient processing and utilization of temporal high-throughput phenotyping data.
+\newblock \emph{Frontiers in Plant Science}, 11, 2020.
+\newblock ISSN 1664-462X.
+\newblock \doi{10.3389/fpls.2020.552509}.
+
+\bibitem[Momen et~al.(2019)Momen, Campbell, Walia, and Morota]{Mehdi10.1534/g3.119.400346}
+Mehdi Momen, Malachy~T Campbell, Harkamal Walia, and Gota Morota.
+\newblock {Predicting Longitudinal Traits Derived from High-Throughput Phenomics in Contrasting Environments Using Genomic Legendre Polynomials and B-Splines}.
+\newblock \emph{G3 Genes|Genomes|Genetics}, 9\penalty0 (10):\penalty0 3369--3380, 10 2019.
+\newblock ISSN 2160-1836.
+\newblock \doi{10.1534/g3.119.400346}.
+
+\bibitem[Pauli et~al.(2016)Pauli, Andrade-Sanchez, Carmo-Silva, Gazave, French, Heun, Hunsaker, Lipka, Setter, Strand, Thorp, Wang, White, and Gore]{Duke10.1534/g3.115.023515}
+Duke Pauli, Pedro Andrade-Sanchez, A~Elizabete Carmo-Silva, Elodie Gazave, Andrew~N French, John Heun, Douglas~J Hunsaker, Alexander~E Lipka, Tim~L Setter, Robert~J Strand, Kelly~R Thorp, Sam Wang, Jeffrey~W White, and Michael~A Gore.
+\newblock {Field-Based High-Throughput Plant Phenotyping Reveals the Temporal Patterns of Quantitative Trait Loci Associated with Stress-Responsive Traits in Cotton}.
+\newblock \emph{G3 Genes|Genomes|Genetics}, 6\penalty0 (4):\penalty0 865--879, 04 2016.
+\newblock ISSN 2160-1836.
+\newblock \doi{10.1534/g3.115.023515}.
+
+\bibitem[Baba et~al.(2020)Baba, Momen, Campbell, Walia, and Morota]{Toshimi10.1371/journal.pone.0228118}
+Toshimi Baba, Mehdi Momen, Malachy~T. Campbell, Harkamal Walia, and Gota Morota.
+\newblock Multi-trait random regression models increase genomic prediction accuracy for a temporal physiological trait derived from high-throughput phenotyping.
+\newblock \emph{PLOS ONE}, 15\penalty0 (2):\penalty0 1--17, 02 2020.
+\newblock \doi{10.1371/journal.pone.0228118}.
+
+\bibitem[Morales et~al.(2024)Morales, Anche, Kaczmar, Lepak, Ni, Romay, Santantonio, Buckler, Gore, Mueller, and Robbins]{Morales10.1093/genetics/iyae037}
+Nicolas Morales, Mahlet~T Anche, Nicholas~S Kaczmar, Nicholas Lepak, Pengzun Ni, Maria~Cinta Romay, Nicholas Santantonio, Edward~S Buckler, Michael~A Gore, Lukas~A Mueller, and Kelly~R Robbins.
+\newblock {Spatio-temporal modeling of high-throughput multispectral aerial images improves agronomic trait genomic prediction in hybrid maize}.
+\newblock \emph{Genetics}, 227\penalty0 (1):\penalty0 iyae037, 03 2024.
+\newblock ISSN 1943-2631.
+\newblock \doi{10.1093/genetics/iyae037}.
+
+\bibitem[Baker et~al.(2018)Baker, Leong, Welch, and Weinig]{Baker2018Baysian}
+R~L Baker, W~F Leong, S~Welch, and C~Weinig.
+\newblock {Mapping and Predicting Non-Linear Brassica rapa Growth Phenotypes Based on Bayesian and Frequentist Complex Trait Estimation}.
+\newblock \emph{G3 Genes|Genomes|Genetics}, 8\penalty0 (4):\penalty0 1247--1258, 04 2018.
+\newblock ISSN 2160-1836.
+\newblock \doi{10.1534/g3.117.300350}.
+
+\bibitem[Perez-Valencia et~al.(2024)Perez-Valencia, Rodriguez-Alvarez, Boer, and van Eeuwijk]{perez2024one}
+Diana~Marcela Perez-Valencia, Maria~Xose Rodriguez-Alvarez, Martin~P Boer, and Fred~A van Eeuwijk.
+\newblock A one-stage approach for the spatio-temporal analysis of high-throughput phenotyping data.
+\newblock \emph{Journal of Agricultural, Biological and Environmental Statistics}, pages 1--23, 2024.
+
+\bibitem[Nesteruk et~al.(2020)Nesteruk, Shadrin, Kovalenko, Rodr{\'i}guez-S{\'a}nchez, and Somov]{Sergey9152399}
+Sergey Nesteruk, Dmitrii Shadrin, Vladislav Kovalenko, Antonio Rodr{\'i}guez-S{\'a}nchez, and Andrey Somov.
+\newblock Plant growth prediction through intelligent embedded sensing.
+\newblock In \emph{2020 IEEE 29th International Symposium on Industrial Electronics (ISIE)}, pages 411--416, 2020.
+\newblock \doi{10.1109/ISIE45063.2020.9152399}.
+
+\bibitem[Adak et~al.(2024)Adak, DeSalvio, Arik, and Murray]{1jkae092FPCA}
+Alper Adak, Aaron~J DeSalvio, Mustafa~A Arik, and Seth~C Murray.
+\newblock {Field-based high-throughput phenotyping enhances phenomic and genomic predictions for grain yield and plant height across years in maize}.
+\newblock \emph{G3 Genes|Genomes|Genetics}, 14\penalty0 (7):\penalty0 jkae092, 05 2024.
+\newblock \doi{10.1093/g3journal/jkae092}.
+
+\bibitem[Matsumura et~al.(2015)Matsumura, Gaitan, Sugimoto, Cannon, and Hsieh]{MATSUMURA2015}
+K.~Matsumura, C.~F. Gaitan, K.~Sugimoto, A.~J. Cannon, and W.~W. Hsieh.
+\newblock Maize yield forecasting by linear regression and artificial neural networks in jilin, china.
+\newblock \emph{The Journal of Agricultural Science}, 153\penalty0 (3):\penalty0 399--410, 2015.
+\newblock \doi{10.1017/S0021859614000392}.
+
+\bibitem[Lee et~al.(2021)Lee, Moon, and Son]{lee2021development}
+Joon-Woo Lee, Taewon Moon, and Jung-Eek Son.
+\newblock Development of growth estimation algorithms for hydroponic bell peppers using recurrent neural networks.
+\newblock \emph{Horticulturae}, 7\penalty0 (9):\penalty0 284, 2021.
+\newblock \doi{10.3390/horticulturae7090284}.
+
+\bibitem[Alhnaity et~al.(2019)Alhnaity, Pearson, Leontidis, and Kollias]{alhnaity2019using}
+Bashar Alhnaity, Simon Pearson, Georgios Leontidis, and Stefanos Kollias.
+\newblock Using deep learning to predict plant growth and yield in greenhouse environments.
+\newblock In \emph{International Symposium on Advanced Technologies and Management for Innovative Greenhouses: GreenSys2019 1296}, pages 425--432, 2019.
+\newblock \doi{10.17660/ActaHortic.2020.1296.55}.
+
+\bibitem[Gong et~al.(2021)Gong, Yu, Jiang, Cutsuridis, and Pearson]{s21134537}
+Liyun Gong, Miao Yu, Shouyong Jiang, Vassilis Cutsuridis, and Simon Pearson.
+\newblock Deep learning based prediction on greenhouse crop yield combined tcn and rnn.
+\newblock \emph{Sensors}, 21\penalty0 (13), 2021.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s21134537}.
+
+\bibitem[Alhnaity et~al.(2021)Alhnaity, Kollias, Leontidis, Jiang, Schamp, and Pearson]{ALHNAITY202135}
+Bashar Alhnaity, Stefanos Kollias, Georgios Leontidis, Shouyong Jiang, Bert Schamp, and Simon Pearson.
+\newblock An autoencoder wavelet based deep neural network with attention mechanism for multi-step prediction of plant growth.
+\newblock \emph{Information Sciences}, 560:\penalty0 35--50, 2021.
+\newblock ISSN 0020-0255.
+\newblock \doi{10.1016/j.ins.2021.01.037}.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin]{transformer}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan~N. Gomez, \L{}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In \emph{Proceedings of the 31st International Conference on Neural Information Processing Systems}, NIPS'17, pages 6000--6010, Red Hook, NY, USA, 2017. Curran Associates Inc.
+\newblock ISBN 9781510860964.
+\newblock \doi{10.48550/arXiv.1706.03762}.
+
+\bibitem[Auger-M{\'e}th{\'e} et~al.(2021)Auger-M{\'e}th{\'e}, Newman, Cole, Empacher, Gryba, King, Leos-Barajas, Mills~Flemming, Nielsen, Petris, and Thomas]{2021_AugerMethe}
+Marie Auger-M{\'e}th{\'e}, Ken Newman, Diana Cole, Fanny Empacher, Rowenna Gryba, Aaron~A. King, Vianey Leos-Barajas, Joanna Mills~Flemming, Anders Nielsen, Giovanni Petris, and Len Thomas.
+\newblock A guide to state--space modeling of ecological time series.
+\newblock \emph{Ecological Monographs}, 91\penalty0 (4):\penalty0 e01470, 2021.
+\newblock \doi{10.1002/ecm.1470}.
+
+\bibitem[Shadrin et~al.(2020)Shadrin, Podladchikova, Ovchinnikov, Pavlov, Pukalchik, and Somov]{9129053}
+Dmitrii Shadrin, Tatiana Podladchikova, George Ovchinnikov, Artem Pavlov, Mariia Pukalchik, and Andrey Somov.
+\newblock Kalman filtering for accurate and fast plant growth dynamics assessment.
+\newblock In \emph{2020 IEEE International Instrumentation and Measurement Technology Conference (I2MTC)}, pages 1--6, 2020.
+\newblock \doi{10.1109/I2MTC43012.2020.9129053}.
+
+\bibitem[Viaud et~al.(2022)Viaud, Chen, and Courn{\`e}de]{viaud2022full}
+Gautier Viaud, Yuting Chen, and Paul-Henry Courn{\`e}de.
+\newblock Full bayesian inference in hidden markov models of plant growth.
+\newblock \emph{The Annals of Applied Statistics}, 16\penalty0 (4):\penalty0 2352--2368, 2022.
+\newblock \doi{10.1214/21-AOAS1594}.
+
+\bibitem[Shibata et~al.(2020)Shibata, Mizuno, and Mineno]{2020_4261965}
+S.~Shibata, R.~Mizuno, and H.~Mineno.
+\newblock Semisupervised deep state-space model for plant growth modeling.
+\newblock \emph{Plant Phenomics}, 2020, 2020.
+\newblock \doi{10.34133/2020/4261965}.
+
+\bibitem[Schiestl-Aalto et~al.(2015)Schiestl-Aalto, Kulmala, M{\"a}kinen, Nikinmaa, and M{\"a}kel{\"a}]{CASSIA}
+Pauliina Schiestl-Aalto, Liisa Kulmala, Harri M{\"a}kinen, Eero Nikinmaa, and Annikki M{\"a}kel{\"a}.
+\newblock Cassia -- a dynamic model for predicting intra-annual sink demand and interannual growth variation in scots pine.
+\newblock \emph{New Phytologist}, 206\penalty0 (2):\penalty0 647--659, 2015.
+\newblock \doi{10.1111/nph.13275}.
+
+\bibitem[Fan et~al.(2015)Fan, Kang, Heuvelink, {de Reffye}, and Hu]{FAN2015363}
+Xing-Rong Fan, Meng-Zhen Kang, Ep~Heuvelink, Philippe {de Reffye}, and Bao-Gang Hu.
+\newblock A knowledge-and-data-driven modeling approach for simulating plant growth: A case study on tomato growth.
+\newblock \emph{Ecological Modelling}, 312:\penalty0 363--373, 2015.
+\newblock ISSN 0304-3800.
+\newblock \doi{10.1016/j.ecolmodel.2015.06.006}.
+
+\bibitem[Godin and Sinoquet(2005)]{Godin2005}
+Christophe Godin and Herv{\'e} Sinoquet.
+\newblock Functional--structural plant modelling.
+\newblock \emph{New Phytologist}, 166\penalty0 (3):\penalty0 705--708, 2005.
+\newblock \doi{10.1111/j.1469-8137.2005.01445.x}.
+
+\bibitem[Vos et~al.(2009)Vos, Evers, Buck-Sorlin, Andrieu, Chelle, and de~Visser]{10.1093/jxb/erp345}
+J.~Vos, J.~B. Evers, G.~H. Buck-Sorlin, B.~Andrieu, M.~Chelle, and P.~H.~B. de~Visser.
+\newblock {Functional--structural plant modelling: a new versatile tool in crop science}.
+\newblock \emph{Journal of Experimental Botany}, 61\penalty0 (8):\penalty0 2101--2115, 12 2009.
+\newblock ISSN 0022-0957.
+\newblock \doi{10.1093/jxb/erp345}.
+
+\bibitem[Coussement et~al.(2018)Coussement, De~Swaef, Lootens, Rold{\'a}n-Ruiz, and Steppe]{10.1093/aob/mcx144}
+Jonas~R Coussement, Tom De~Swaef, Peter Lootens, Isabel Rold{\'a}n-Ruiz, and Kathy Steppe.
+\newblock {Introducing turgor-driven growth dynamics into functional--structural plant models}.
+\newblock \emph{Annals of Botany}, 121\penalty0 (5):\penalty0 849--861, 01 2018.
+\newblock ISSN 0305-7364.
+\newblock \doi{10.1093/aob/mcx144}.
+
+\bibitem[Evers(2016)]{Evers2016}
+Jochem~B. Evers.
+\newblock \emph{Simulating Crop Growth and Development Using Functional-Structural Plant Modeling}, pages 219--236.
+\newblock Springer Netherlands, Dordrecht, 2016.
+\newblock ISBN 978-94-017-7291-4.
+\newblock \doi{10.1007/978-94-017-7291-4_8}.
+
+\bibitem[Wang et~al.(2024)Wang, Hua, Kang, Wang, and Reffye]{Xiujuan2024}
+Xiujuan Wang, Jing Hua, Mengzhen Kang, Haoyu Wang, and Philippe Reffye.
+\newblock Functional--structural plant model "greenlab": A state-of-the-art review.
+\newblock \emph{Plant Phenomics}, 6:\penalty0 0118, 2024.
+\newblock \doi{10.34133/plantphenomics.0118}.
+
+\bibitem[Chew et~al.(2014)Chew, Wenden, Flis, Mengin, Taylor, Davey, Tindal, Thomas, Ougham, de~Reffye, Stitt, Williams, Muetzelfeldt, Halliday, and Millar]{doi:10.1073/pnas.1410238111}
+Yin~Hoon Chew, Bénédicte Wenden, Anna Flis, Virginie Mengin, Jasper Taylor, Christopher~L. Davey, Christopher Tindal, Howard Thomas, Helen~J. Ougham, Philippe de~Reffye, Mark Stitt, Mathew Williams, Robert Muetzelfeldt, Karen~J. Halliday, and Andrew~J. Millar.
+\newblock Multiscale digital \emph{Arabidopsis} predicts individual organ and whole-organism growth.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 111\penalty0 (39):\penalty0 E4127--E4136, 2014.
+\newblock \doi{10.1073/pnas.1410238111}.
+
+\bibitem[Parasurama et~al.(2023)Parasurama, Banan, Yun, Doty, and Kim]{doi:10.34133/plantphenomics.0127}
+Sriram Parasurama, Darshi Banan, Kyungdahm Yun, Sharon Doty, and Soo-Hyung Kim.
+\newblock Bridging time-series image phenotyping and functional--structural plant modeling to predict adventitious root system architecture.
+\newblock \emph{Plant Phenomics}, 5:\penalty0 0127, 2023.
+\newblock \doi{10.34133/plantphenomics.0127}.
+
+\bibitem[Nagano et~al.(2019)Nagano, Moriyuki, Wakamori, Mineno, and Fukuda]{10.3389/fpls.2019.00227}
+Shogo Nagano, Shogo Moriyuki, Kazumasa Wakamori, Hiroshi Mineno, and Hirokazu Fukuda.
+\newblock Leaf-movement-based growth prediction model using optical flow analysis and machine learning in plant factory.
+\newblock \emph{Frontiers in Plant Science}, 10, 2019.
+\newblock ISSN 1664-462X.
+\newblock \doi{10.3389/fpls.2019.00227}.
+
+\bibitem[Huang et~al.(2018)Huang, Wang, Quinn, Suresh, and Hsia]{huang2018differential}
+Changjin Huang, Zilu Wang, David Quinn, Subra Suresh, and K.~Jimmy Hsia.
+\newblock Differential growth and shape formation in plant organs.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 115\penalty0 (49):\penalty0 12359--12364, 2018.
+\newblock \doi{10.1073/pnas.1811296115}.
+
+\bibitem[Mosca et~al.(2018)Mosca, Adibi, Strauss, Runions, Sapala, and Smith]{Mosca2018}
+Gabriella Mosca, Milad Adibi, Soeren Strauss, Adam Runions, Aleksandra Sapala, and Richard~S. Smith.
+\newblock \emph{Modeling Plant Tissue Growth and Cell Division}, pages 107--138.
+\newblock Springer International Publishing, Cham, 2018.
+\newblock ISBN 978-3-319-99070-5.
+\newblock \doi{10.1007/978-3-319-99070-5_7}.
+
+\bibitem[Kierzkowski et~al.(2019)Kierzkowski, Runions, Vuolo, Strauss, Lymbouridou, Routier-Kierzkowska, Wilson-S{\'a}nchez, Jenke, Galinha, Mosca, Zhang, Canales, {Dello Ioio}, Huijser, Smith, and Tsiantis]{KIERZKOWSKI20191405}
+Daniel Kierzkowski, Adam Runions, Francesco Vuolo, S{\"o}ren Strauss, Rena Lymbouridou, Anne-Lise Routier-Kierzkowska, David Wilson-S{\'a}nchez, Hannah Jenke, Carla Galinha, Gabriella Mosca, Zhongjuan Zhang, Claudia Canales, Raffaele {Dello Ioio}, Peter Huijser, Richard~S. Smith, and Miltos Tsiantis.
+\newblock A growth-based framework for leaf shape development and diversity.
+\newblock \emph{Cell}, 177\penalty0 (6):\penalty0 1405--1418.e17, 2019.
+\newblock ISSN 0092-8674.
+\newblock \doi{10.1016/j.cell.2019.05.011}.
+
+\bibitem[Prusinkiewicz and Lindenmayer(2012)]{prusinkiewicz2012algorithmic}
+Przemyslaw Prusinkiewicz and Aristid Lindenmayer.
+\newblock \emph{The algorithmic beauty of plants}.
+\newblock Springer Science \& Business Media, 2012.
+
+\bibitem[Prusinkiewicz et~al.(2018)Prusinkiewicz, Cieslak, Ferraro, and Hanan]{Prusinkiewicz2018}
+Przemyslaw Prusinkiewicz, Mikolaj Cieslak, Pascal Ferraro, and Jim Hanan.
+\newblock \emph{Modeling Plant Development with L-Systems}, pages 139--169.
+\newblock Springer International Publishing, Cham, 2018.
+\newblock ISBN 978-3-319-99070-5.
+\newblock \doi{10.1007/978-3-319-99070-5_8}.
+
+\bibitem[Allen et~al.(2005)Allen, Prusinkiewicz, and DeJong]{LPeaches2005}
+M.~T. Allen, P.~Prusinkiewicz, and T.~M. DeJong.
+\newblock Using l-systems for modeling source--sink interactions, architecture and physiology of growing trees: the l-peach model.
+\newblock \emph{New Phytologist}, 166\penalty0 (3):\penalty0 869--880, 2005.
+\newblock \doi{10.1111/j.1469-8137.2005.01348.x}.
+
+\bibitem[DeJong et~al.(2015)DeJong, Da~Silva, Negron, Cieslak, and Prusinkiewicz]{dejong2015almond}
+TM~DeJong, D~Da~Silva, C~Negron, M~Cieslak, and P~Prusinkiewicz.
+\newblock The l-almond model: a functional-structural virtual tree model of almond tree architectural growth, carbohydrate dynamics over multiple years.
+\newblock In \emph{X International Symposium on Modelling in Fruit Research and Orchard Management 1160}, pages 43--50, 2015.
+\newblock \doi{10.17660/ActaHortic.2017.1160.7}.
+
+\bibitem[DeJong(2022)]{LPeaches2022}
+Theodore DeJong.
+\newblock Simulating fruit tree growth, structure, and physiology using l-systems.
+\newblock \emph{Crop Science}, 62\penalty0 (6):\penalty0 2091--2106, 2022.
+\newblock \doi{10.1002/csc2.20847}.
+
+\bibitem[Rokhana et~al.(2020)Rokhana, Herulambang, and Indraswari]{9231935}
+Rika Rokhana, Wiwiet Herulambang, and Rarasmaya Indraswari.
+\newblock Machine learning and polynomial -- l system algorithm for modeling and simulation of glycine max (l) merrill growth.
+\newblock In \emph{2020 International Electronics Symposium (IES)}, pages 463--467, 2020.
+\newblock \doi{10.1109/IES50839.2020.9231935}.
+
+\bibitem[Yang et~al.(2024)Yang, Wu, Zuo, Long, Shi, and Liu]{YANG2024122}
+Le~Yang, Panpan Wu, Zhengkang Zuo, Lan Long, Junlin Shi, and Yutang Liu.
+\newblock Eroots: A three-dimensional dynamic growth model of rice roots coupled with soil.
+\newblock \emph{Biosystems Engineering}, 244:\penalty0 122--133, 2024.
+\newblock ISSN 1537-5110.
+\newblock \doi{10.1016/j.biosystemseng.2024.06.002}.
+
+\bibitem[Hitti et~al.(2024)Hitti, Buzatu, Verme, Lefsrud, Golemo, and Durand]{HITTI2024108613}
+Yasmeen Hitti, Ionelia Buzatu, Manuel~Del Verme, Mark Lefsrud, Florian Golemo, and Audrey Durand.
+\newblock Growspace: A reinforcement learning environment for plant architecture.
+\newblock \emph{Computers and Electronics in Agriculture}, 217:\penalty0 108613, 2024.
+\newblock ISSN 0168-1699.
+\newblock \doi{10.1016/j.compag.2024.108613}.
+
+\bibitem[Mu{\ss}mann et~al.(2024)Mu{\ss}mann, Hofstadler, and von Mammen]{10.1162/isal_a_00718}
+Marc Mu{\ss}mann, Daniel~Nicolas Hofstadler, and Sebastian von Mammen.
+\newblock An agent-based, interactive simulation model of root growth.
+\newblock volume ALIFE 2024: Proceedings of the 2024 Artificial Life Conference of \emph{Artificial Life Conference Proceedings}, page~7, 07 2024.
+\newblock \doi{10.1162/isal_a_00718}.
+
+\bibitem[Sakurai. et~al.(2019)Sakurai., Uchiyama., Shimada., and Taniguchi.]{sakurai2019plant}
+Shunsuke Sakurai., Hideaki Uchiyama., Atshushi Shimada., and Rin{-}Ichiro Taniguchi.
+\newblock Plant growth prediction using convolutional lstm.
+\newblock In \emph{Proceedings of the 14th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (5: VISAPP)}, pages 105--113. INSTICC, 2019.
+\newblock ISBN 978-989-758-354-4.
+\newblock \doi{10.5220/0007404901050113}.
+
+\bibitem[Wang et~al.(2022)Wang, Pan, Song, Yu, Zhu, Liu, and Li]{agronomy12092213}
+Chunying Wang, Weiting Pan, Xubin Song, Haixia Yu, Junke Zhu, Ping Liu, and Xiang Li.
+\newblock Predicting plant growth and development using time-series images.
+\newblock \emph{Agronomy}, 12\penalty0 (9), 2022.
+\newblock ISSN 2073-4395.
+\newblock \doi{10.3390/agronomy12092213}.
+
+\bibitem[Kingma and Welling(2013)]{kingma2013auto}
+Diederik~P Kingma and Max Welling.
+\newblock Auto-encoding variational bayes.
+\newblock \emph{arXiv preprint arXiv:1312.6114}, 2013.
+\newblock \doi{10.48550/arXiv.1312.6114}.
+
+\bibitem[Yasrab et~al.(2021)Yasrab, Zhang, Smyth, and Pound]{rs13030331}
+Robail Yasrab, Jincheng Zhang, Polina Smyth, and Michael~P. Pound.
+\newblock Predicting plant growth from time-series data using deep learning.
+\newblock \emph{Remote Sensing}, 13\penalty0 (3), 2021.
+\newblock ISSN 2072-4292.
+\newblock \doi{10.3390/rs13030331}.
+
+\bibitem[Kim et~al.(2022)Kim, Lee, and Kim]{9750078}
+Taehyeon Kim, Sang-Ho Lee, and Jong-Ok Kim.
+\newblock A novel shape based plant growth prediction algorithm using deep learning and spatial transformation.
+\newblock \emph{IEEE Access}, 10:\penalty0 37731--37742, 2022.
+\newblock \doi{10.1109/ACCESS.2022.3165211}.
+
+\bibitem[Li et~al.(2023)Li, Zhan, Liu, Lu, Jiang, Guo, Chapman, Ge, Solan, Ding, and Baret]{doi:10.34133/plantphenomics.0041}
+Yinglun Li, Xiaohai Zhan, Shouyang Liu, Hao Lu, Ruibo Jiang, Wei Guo, Scott Chapman, Yufeng Ge, Benoit Solan, Yanfeng Ding, and Fr{\'e}d{\'e}ric Baret.
+\newblock Self-supervised plant phenotyping by combining domain adaptation with 3d plant model simulations: Application to wheat leaf counting at seedling stage.
+\newblock \emph{Plant Phenomics}, 5:\penalty0 0041, 2023.
+\newblock \doi{10.34133/plantphenomics.0041}.
+
+\bibitem[Lu et~al.(2022)Lu, Chen, Olaniyi, and Huang]{LU2022107208}
+Yuzhen Lu, Dong Chen, Ebenezer Olaniyi, and Yanbo Huang.
+\newblock Generative adversarial networks (gans) for image augmentation in agriculture: A systematic review.
+\newblock \emph{Computers and Electronics in Agriculture}, 200:\penalty0 107208, 2022.
+\newblock ISSN 0168-1699.
+\newblock \doi{10.1016/j.compag.2022.107208}.
+
+\bibitem[Miranda et~al.(2022)Miranda, Drees, and Roscher]{9956115}
+Miro Miranda, Lukas Drees, and Ribana Roscher.
+\newblock Controlled multi-modal image generation for plant growth modeling.
+\newblock In \emph{2022 26th International Conference on Pattern Recognition (ICPR)}, pages 5118--5124, 2022.
+\newblock \doi{10.1109/ICPR56361.2022.9956115}.
+
+\bibitem[Drees et~al.(2021)Drees, Junker-Frohn, Kierdorf, and Roscher]{DREES2021106415}
+Lukas Drees, Laura~Verena Junker-Frohn, Jana Kierdorf, and Ribana Roscher.
+\newblock Temporal prediction and evaluation of brassica growth in the field using conditional generative adversarial networks.
+\newblock \emph{Computers and Electronics in Agriculture}, 190:\penalty0 106415, 2021.
+\newblock ISSN 0168-1699.
+\newblock \doi{10.1016/j.compag.2021.106415}.
+
+\bibitem[Leonhardt et~al.(2022)Leonhardt, Drees, Jung, and Roscher]{10.1007/978-3-031-16788-1_29}
+Johannes Leonhardt, Lukas Drees, Peter Jung, and Ribana Roscher.
+\newblock Probabilistic biomass estimation with conditional generative adversarial networks.
+\newblock In Bj{\"o}rn Andres, Florian Bernard, Daniel Cremers, Simone Frintrop, Bastian Goldl{\"u}cke, and Ivo Ihrke, editors, \emph{Pattern Recognition}, pages 479--494, Cham, 2022. Springer International Publishing.
+\newblock ISBN 978-3-031-16788-1.
+
+\bibitem[Drees et~al.(2024)Drees, Demie, Paul, Leonhardt, Seidel, D{\"o}ring, and Roscher]{Drees_2024}
+Lukas Drees, Dereje~T. Demie, Madhuri~R. Paul, Johannes Leonhardt, Sabine~J. Seidel, Thomas~F. D{\"o}ring, and Ribana Roscher.
+\newblock Data-driven crop growth simulation on time-varying generated images using multi-conditional generative adversarial networks.
+\newblock \emph{Plant Methods}, 20\penalty0 (1), 06 2024.
+\newblock ISSN 1746-4811.
+\newblock \doi{10.1186/s13007-024-01205-3}.
+
+\bibitem[Debbagh et~al.(2024)Debbagh, Liu, Zheng, Jiang, Sun, and Lefsrud]{Debbagh2024SIPGS}
+Mohamed Debbagh, Yixue Liu, Zhouzhou Zheng, Xintong Jiang, Shangpeng Sun, and Mark Lefsrud.
+\newblock Generative plant growth simulation from sequence-informed environmental conditions.
+\newblock In \emph{Artificial Neural Networks in Pattern Recognition}, pages 308--319, Cham, 2024. Springer Nature Switzerland.
+\newblock ISBN 978-3-031-71602-7.
+\newblock \doi{10.1007/978-3-031-71602-7_26}.
+
+\bibitem[Roscher et~al.(2023)Roscher, Roth, Stachniss, and Walter]{roscher2023datacentricdigitalagricultureperspective}
+Ribana Roscher, Lukas Roth, Cyrill Stachniss, and Achim Walter.
+\newblock Data-centric digital agriculture: A perspective, 2023.
+
+\end{thebibliography}
