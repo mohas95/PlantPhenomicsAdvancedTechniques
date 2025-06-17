@@ -17,6 +17,8 @@
 \usepackage{threeparttable} % For table footnotes
 \usepackage{url}
 \usepackage{doi}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 
 
 
@@ -79,7 +81,7 @@ Accurate predictions and representations of plant growth patterns in simulated a
 %%%%%% Intoduction %%%%%%
 
 \section{Introduction}\label{introduction}
-With the growing prevalence of challenges in global food systems, including restricted access to fresh produce for remote populations and issues faced within traditional cultivation practices, outlooks on controlled environment agriculture (CEA) present potential solutions through precision methods of localized food production \cite{Mirzabaev2023,OSULLIVAN2019133,KurtBenke10.1080/15487733.2017.1394054}. Controlled environments within crop production systems provide opportunities to observe and cultivate plants with diverse characteristics, or phenotypes, making it suitable for specialized applications from trait selection for cultivar development and biopharming \cite{Halperin/10.1111/tpj.13425,HENRY2020168,langstroff2022opportunities,agronomy13030858,YANG2023102267}, to food production in extreme and resource scarce environments \cite{NGUYEN2023708,10.3389/fpls.2020.00801,10.3389/fpls.2020.00656}. Moreover, the ability to accurately predict and represent the phenotypic expression of a plant and its trajectory at various points in its growth cycle demonstrates a fundamental step towards advancing simulation and modeling research within CEA. 
+With the growing prevalence of challenges in global food systems, including restricted access to fresh produce for remote populations and issues faced within traditional cultivation practices, outlooks on controlled environment agriculture (CEA) present potential solutions through precision methods of localized food production \cite{Mirzabaev2023,OSULLIVAN2019133,KurtBenke10.1080/15487733.2017.1394054}. Controlled environments within crop production systems provide opportunities to observe and cultivate plants with diverse characteristics, or phenotypes, making it suitable for specialized applications from trait selection for cultivar development and biopharming \cite{Halperin/10.1111/tpj.13425,HENRY2020168,langstroff2022opportunities,agronomy13030858,YANG2023102267}, to food production in extreme and resource scarce environments \cite{NGUYEN2023708,10.3389/fpls.2020.00801,10.3389/fpls.2020.00656}. Subsequently, the ability to accurately predict and represent the phenotypic expression of a plant and its trajectory at various points in its growth cycle demonstrates a fundamental step towards advancing simulation and modeling research within CEA. 
 
 Recent developments in computational and algorithmic theories, coupled with innovations in data collection and fusion techniques, have opened new avenues for exploring plant phenotypes and growth patterns within simulated and controlled environments \cite{10.1111/tpj.14722}. These environments allow for the precise manipulation of variables such as light, temperature, humidity, and nutrient availability, enabling researchers to study the dynamic interactions that influence plant development. By leveraging techniques in predictive pattern recognition, models can be developed to accurately capture and represent plant growth behaviors.
 
@@ -87,19 +89,61 @@ Recent developments in computational and algorithmic theories, coupled with inno
 % \subsection{Background}\label{Background}
 \subsection{Rebuttal: Comparing Controlled and Open Field Environments}
 To contextualize the focus of this review, it is necessary to compare the differences in observational parameters between controlled environment and open field systems. 
-Open field environments, as with traditional agricultural cropping systems, are characterized by the exposure to highly variable and often uncontrollable factors including precipitation, solar conditions, climate fluctuation, and biotic stressors such as pest, pathogens, and soil microbe root interactions. 
+Open field environments, as with traditional agricultural cropping systems, are characterized by the exposure to highly variable and often uncontrollable factors including precipitation, solar conditions, climate fluctuations, and biotic stressors such as pest, pathogens, and soil microbe root interactions. 
 These fluctuations introduce noise and confounding variables into experimental data, making it difficult to isolate causal relationships in plant development. 
 Moreover, instrumentation methods for capturing these factors of variation (FOV) are often developed for constrained experiments, where samples are collected manually, and remain difficult to scale for application in traditional agricultural systems. Thus, outlooks within open-field research often highlight the bottlenecks in sensing and data handling which in turn limit the assessment of physiological development and crop forecasting to sparse spatiotemporal samples of FOV\cite{10.1093/jxb/erv345,WHITE2012101}.    
 However, due to the desire for open environment resilient plant varieties for outdoor cropping systems, trends in field-based phenomics research have primarily focused on phenotype-genotype mapping for applications in breeding programs within open-field environments \cite{DEERY20219871989,nph.15817,ARAUS201452}. 
 
 Controlled environments are typically found within CEA systems such as greenhouses, vertical farms, and growth chambers and are characterized by a confined growing space in which the environmental conditions are known, regulated, or fully controlled. 
 These controlled environment conditions give rise to regularized observations made on plant behavior by constraining some FOVs within known parameterized boundaries.  
-While not all conditions can be isolated and controlled, factors such 
+While not all conditions can be isolated and controlled, factors such light intensity, schedule, and spectrum, air and root zone temperature, humidity, CO\textsubscript{2} concentration, nutrient conditions and delivery methods are well monitored and regulated \cite{srivani2019controlled} (Table \ref{tab:CEA_parameters}).
+Controlled environments lend themselves well to modeling systems as instrumentation and control systems are easily integrated and necessary to maintain optimal conditions for plant growth. 
+These measurements can then be parameterized to develop advanced representation models for predictive forecasting and simulation.
 
-When comparing 
+\begin{table}[h]
+    \centering
+    \caption{Typical Parameters Controlled in Controlled Environment Agriculture (CEA)}
+    \label{tab:CEA_parameters}
+        \begin{tabular}{L{3cm}L{8cm}L{2cm}}
+            \toprule
+            \textbf{Parameter} & \textbf{Description}& \textbf{References} \\
+            \hline
+            Air temperature & Precise regulation of day/night temperatures to optimize growth, flowering, transpiration. & \\
+            \hline
+            CO\textsubscript{2} concentration & Enrichment to enhance photosynthesis and yield; timing and dose controlled via sensors. &  \\
+            \hline
+            Relative humidity & Maintained within optimal range to regulate transpiration and reduce pathogen risk. &  \\
+            \hline
+            Light intensity / spectrum / duration & LED lighting systems tailored for growth stage: PAR level, spectrum composition, photoperiod control. &  \\
+            \hline
+            Airflow / ventilation / air velocity & Fans and vents employed for climate uniformity, gas exchange, leaf temperature control. & \\
+            \hline
+            Nutrient solution pH & Acid/base adjustment to ensure optimal uptake in hydroponics and aeroponics. &  \\
+            \hline
+            Nutrient EC / concentration & Electrical conductivity monitored to maintain appropriate ion availability for plant uptake. &  \\
+            \hline
+            Water temperature & Regulated to maintain oxygen levels and prevent root diseases in DWC systems.         &  \\
+            \hline
+            Nutrient solution dissolved oxygen & Aeration control to support root respiration and growth in hydroponic systems.&  \\
+            \bottomrule
+        \end{tabular}
 
-\subsection{Rebuttal: Defining Simulated Environments}
-Simulated environments.
+    \end{table}
+    
+\subsection{Rebuttal: Defining Simulated Environments and Plant Growth}
+The phenotypic outcomes of a plant are influenced by high-dimensional interactions between genotype, environment, and management (G$\times$E$\times$M), often resulting in complex non-linear responses \cite{cooper2022predicting,MESSINA2018151,mahmood2022genotype}. 
+Subsequently, the objective of controlled environment systems is to constrain and reduce the influence of the environmental dimension by maintaining known optimal conditions of various crop varieties. 
+However, a second useful objective of these systems becomes apparent as advances in automated sensing and controls are implemented within CEA; The development of robust simulations and plant growth prediction models.
+
+The term simulation can take on two meanings within this context. 
+The first, is an empirical simulation where CEA is applied to mimic open-field conditions such that, the plant's behavior can be explored under controlled conditions, and the insights to be employed under real world field conditions.  
+The second, is a computational simulation, or \textit{in silico} representation and quantification of plant behaviors given simulated conditions through models. 
+In this review, the use of the term simulation borrows from both meanings and describes \textit{in silico} models that predict plant growth under real world conditions, which are developed by observing plant behaviors under controlled environments.
+
+With this definition, it is also important to define plant growth within these models. 
+Plant growth refers to the manifestation of plant traits, or phenotypes, over time. More specifically, the size, mass, and complexity of a plant over time, resulting from cell division, cell expansion, and differentiation processes that are regulated by internal genetic programs and modulated by external environmental factors \cite{Brukhin_Morozova_2011,alberts2002plant}. 
+Quantitatively, plant growth can be represented by morphological traits such as  leaf area, height, and biomass, physiological measurements such as photosynthetic rate and transpiration, or biochemical markers, all of which vary across developmental stages and are sensitive to both spatial and temporal heterogeneity \cite{annurev-arplant-050312-120137}.
+Moreover, the outputs of these simulations can have various representations from low dimensional quantitative traits to high dimensional 2D and 3D renderings and are explored further in this review.
 
 \subsection{Background: Predictive Plant Growth Modeling}
 Predictive models within plant research are often dominated by a frequentist approach to statistical inference, where empirical observations and static conditions are tested against hypotheses to determine the probable outcome through confidence intervals or point estimations. This statistical approach is favored within the field for its simplicity in analysis and interpretation. Frequentist methods, including various forms of regression modeling, provide robust tools for analyzing experimental data and have become the standard in plant research due to their well-established procedures and ease of use \cite{hoshmand2018design,bender2020statistical}. However, this experiment-centric approach is often limited when applied toward plant observation tasks that involve complex data structures, as with analyzing sequential and spatiotemporal images collected within the domain of high-throughput plant phenotyping (HTPP). Moreover, plant growth modeling and forecasting is an ill-posed problem where the trajectory of a plant’s development does not have a unique solution. Dynamic growing conditions and stochastic elements within plant development are prevalent due to the inherent variability and uncertainty that exists in biological systems. For example, plant growth is influenced by numerous interacting factors, including genetic, environmental, and management variables, which can lead to highly complex and non-linear relationships. Thus methods for regularization of the problem should be explored.

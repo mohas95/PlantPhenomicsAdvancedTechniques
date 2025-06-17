@@ -1,4 +1,4 @@
-\begin{thebibliography}{114}
+\begin{thebibliography}{121}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -123,6 +123,49 @@ José~Luis Araus and Jill~E. Cairns.
 \newblock ISSN 1360-1385.
 \newblock \doi{https://doi.org/10.1016/j.tplants.2013.09.008}.
 \newblock URL \url{https://www.sciencedirect.com/science/article/pii/S1360138513001994}.
+
+\bibitem[Srivani et~al.(2019)Srivani, Manjula, et~al.]{srivani2019controlled}
+P~Srivani, SH~Manjula, et~al.
+\newblock A controlled environment agriculture with hydroponics: variants, parameters, methodologies and challenges for smart farming.
+\newblock In \emph{2019 Fifteenth International Conference on Information Processing (ICINPRO)}, pages 1--8. IEEE, 2019.
+
+\bibitem[Cooper et~al.(2022)Cooper, Messina, Tang, Gho, Powell, Podlich, Technow, and Hammer]{cooper2022predicting}
+Mark Cooper, Carlos~D Messina, Tom Tang, Carla Gho, Owen~M Powell, Dean~W Podlich, Frank Technow, and Graeme~L Hammer.
+\newblock Predicting genotype$\times$ environment$\times$ management (g$\times$ e$\times$ m) interactions for the design of crop improvement strategies: integrating breeder, agronomist, and farmer perspectives.
+\newblock \emph{Plant breeding reviews}, 46:\penalty0 467--585, 2022.
+
+\bibitem[Messina et~al.(2018)Messina, Technow, Tang, Totir, Gho, and Cooper]{MESSINA2018151}
+C.D. Messina, F.~Technow, T.~Tang, R.~Totir, C.~Gho, and M.~Cooper.
+\newblock Leveraging biological insight and environmental variation to improve phenotypic prediction: Integrating crop growth models (cgm) with whole genome prediction (wgp).
+\newblock \emph{European Journal of Agronomy}, 100:\penalty0 151--162, 2018.
+\newblock ISSN 1161-0301.
+\newblock \doi{https://doi.org/10.1016/j.eja.2018.01.007}.
+\newblock URL \url{https://www.sciencedirect.com/science/article/pii/S1161030118300078}.
+\newblock Recent advances in crop modelling to support sustainable agricultural production and food security under global change.
+
+\bibitem[Mahmood et~al.(2022)Mahmood, Ahmed, and Trethowan]{mahmood2022genotype}
+Tariq Mahmood, Talaat Ahmed, and Richard Trethowan.
+\newblock Genotype x environment x management (gem) reciprocity and crop productivity.
+\newblock \emph{Frontiers in Agronomy}, 4:\penalty0 800365, 2022.
+\newblock \doi{10.3389/fagro.2022.800365}.
+
+\bibitem[Brukhin and Morozova(2011)]{Brukhin_Morozova_2011}
+V.~Brukhin and N.~Morozova.
+\newblock Plant growth and development - basic knowledge and current views.
+\newblock \emph{Mathematical Modelling of Natural Phenomena}, 6\penalty0 (2):\penalty0 1–53, 2011.
+\newblock \doi{10.1051/mmnp/20116201}.
+
+\bibitem[Alberts et~al.(2002)Alberts, Johnson, Lewis, Raff, Roberts, and Walter]{alberts2002plant}
+Bruce Alberts, Alexander Johnson, Julian Lewis, Martin Raff, Keith Roberts, and Peter Walter.
+\newblock Plant development.
+\newblock In \emph{Molecular Biology of the Cell. 4th edition}. Garland Science, 2002.
+
+\bibitem[Fiorani and Schurr(2013)]{annurev-arplant-050312-120137}
+Fabio Fiorani and Ulrich Schurr.
+\newblock Future scenarios for plant phenotyping.
+\newblock \emph{Annual Review of Plant Biology}, 64\penalty0 (Volume 64, 2013):\penalty0 267--291, 2013.
+\newblock ISSN 1545-2123.
+\newblock \doi{10.1146/annurev-arplant-050312-120137}.
 
 \bibitem[Hoshmand(2006)]{hoshmand2018design}
 Reza Hoshmand.
