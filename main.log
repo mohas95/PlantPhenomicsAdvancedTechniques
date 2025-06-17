@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.12)  12 JUN 2025 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.12)  16 JUN 2025 20:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -380,24 +380,24 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -458,214 +458,238 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 67.
+Package hyperref Info: Link coloring OFF on input line 68.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<1_Modeling_Paradigm.pdf, id=164, 688.85358pt x 484.08855pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<1_Modeling_Paradigm.pdf, id=177, 688.85358pt x 484.08855pt>
 File: 1_Modeling_Paradigm.pdf Graphic file (type pdf)
 <use 1_Modeling_Paradigm.pdf>
-Package pdftex.def Info: 1_Modeling_Paradigm.pdf  used on input line 95.
+Package pdftex.def Info: 1_Modeling_Paradigm.pdf  used on input line 109.
 (pdftex.def)             Requested size: 433.62001pt x 304.72624pt.
- [2] [3 <./1_Modeling_Paradigm.pdf>]
-Overfull \hbox (5.29631pt too wide) in paragraph at lines 116--117
+ [3 <./1_Modeling_Paradigm.pdf>] [4]
+Overfull \hbox (5.29631pt too wide) in paragraph at lines 130--131
 \OT1/cmr/m/n/10 A rig-or-ous screen-ing pro-cess was ap-plied to ar-ti-cles in-dexed within the fol-low-ing pub-li-ca-tion databases;
  []
 
-[4]
-<2_Publication_Overview.pdf, id=272, 1356.06625pt x 641.39626pt>
+<2_Publication_Overview.pdf, id=274, 1356.06625pt x 641.39626pt>
 File: 2_Publication_Overview.pdf Graphic file (type pdf)
 <use 2_Publication_Overview.pdf>
-Package pdftex.def Info: 2_Publication_Overview.pdf  used on input line 120.
+Package pdftex.def Info: 2_Publication_Overview.pdf  used on input line 134.
 (pdftex.def)             Requested size: 433.62001pt x 205.09439pt.
- [5 <./2_Publication_Overview.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Soybean (\OT1/cmr/m/it/7 Glycine max var.
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 193--193
+Underfull \hbox (badness 5050) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Segmented plant struc-ture (leaf shape, stem,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Maize (\OT1/cmr/m/it/7 Zea mays\OT1/cmr/m/n/7 ), Tomato
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 193--193
+Underfull \hbox (badness 5050) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Segmented plant struc-ture (leaf shape, stem,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Maize (\OT1/cmr/m/it/7 Zea mays\OT1/cmr/m/n/7 ), Tomato
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 \OT1/cmr/m/n/7 (\OT1/cmr/m/it/7 Solanum ly-cop-er-sicum\OT1/cmr/m/n/7 ), rice
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 \OT1/cmr/m/n/7 (Azu-cena, Bala), Ara-bidop-sis
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 193--193
+Underfull \hbox (badness 1430) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Uchiyama et al. (KO-
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 193--193
+Underfull \hbox (badness 3049) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Komatsuna (\OT1/cmr/m/it/7 Bras-sica rapa var.
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 193--193
+Underfull \hbox (badness 1163) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Multi-view RGBD im-ages and an-no-tated masks
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Kierdorf et al.
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 193--193
+Underfull \hbox (badness 1412) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Maize (\OT1/cmr/m/it/7 Zea mays L.\OT1/cmr/m/n/7 ), Sorghum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Thoday-Kennedy et al.
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 193--193
+Underfull \hbox (badness 4303) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Safflower (\OT1/cmr/m/it/7 Carthamus tinc-to-rius
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Maize (\OT1/cmr/m/it/7 Zea mays\OT1/cmr/m/n/7 ), Wheat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 General veg-e-ta-tion in Arc-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Plantain (\OT1/cmr/m/it/7 Musa acumi-nata \TS1/cmr/m/it/7 Ö
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Sugarcane (\OT1/cmr/m/it/7 Sac-cha-rum of-fic-i-
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 193--193
+Underfull \hbox (badness 1102) in paragraph at lines 207--207
 []|\OT1/cmr/m/n/7 Manjarrez-Sanchez et al.
  []
 
-[6{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [7] [8]
-<3_hierarchical_reg.pdf, id=437, 1014.6708pt x 716.9184pt>
+[6{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./2_Publication_Overview.pdf>] [7] [8] [9]
+<3_hierarchical_reg.pdf, id=449, 1014.6708pt x 716.9184pt>
 File: 3_hierarchical_reg.pdf Graphic file (type pdf)
 <use 3_hierarchical_reg.pdf>
-Package pdftex.def Info: 3_hierarchical_reg.pdf  used on input line 226.
+Package pdftex.def Info: 3_hierarchical_reg.pdf  used on input line 240.
 (pdftex.def)             Requested size: 433.62001pt x 306.3764pt.
- [9 <./3_hierarchical_reg.pdf>] [10] [11]
-<4_RNN_pipeline.pdf, id=556, 433.62pt x 234.8775pt>
+ [10 <./3_hierarchical_reg.pdf>] [11] [12]
+<4_RNN_pipeline.pdf, id=568, 433.62pt x 234.8775pt>
 File: 4_RNN_pipeline.pdf Graphic file (type pdf)
 <use 4_RNN_pipeline.pdf>
-Package pdftex.def Info: 4_RNN_pipeline.pdf  used on input line 269.
+Package pdftex.def Info: 4_RNN_pipeline.pdf  used on input line 283.
 (pdftex.def)             Requested size: 368.57965pt x 199.65756pt.
- [12 <./4_RNN_pipeline.pdf>] [13] [14]
-<5_Structured_output.pdf, id=616, 461.44395pt x 496.73581pt>
+ [13 <./4_RNN_pipeline.pdf>] [14] [15]
+<5_Structured_output.pdf, id=628, 461.44395pt x 496.73581pt>
 File: 5_Structured_output.pdf Graphic file (type pdf)
 <use 5_Structured_output.pdf>
-Package pdftex.def Info: 5_Structured_output.pdf  used on input line 322.
+Package pdftex.def Info: 5_Structured_output.pdf  used on input line 336.
 (pdftex.def)             Requested size: 303.53267pt x 326.7476pt.
- [15 <./5_Structured_output.pdf>] [16]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 341.
-<6_lsystems.pdf, id=801, 722.7pt x 361.35pt>
+ [16 <./5_Structured_output.pdf>] [17]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 355.
+<6_lsystems.pdf, id=813, 722.7pt x 361.35pt>
 File: 6_lsystems.pdf Graphic file (type pdf)
 <use 6_lsystems.pdf>
-Package pdftex.def Info: 6_lsystems.pdf  used on input line 364.
+Package pdftex.def Info: 6_lsystems.pdf  used on input line 378.
 (pdftex.def)             Requested size: 433.62001pt x 216.81168pt.
- [17] [18 <./6_lsystems.pdf>]
-<7_CRNN.pdf, id=866, 722.7pt x 361.35pt>
+ [18] [19 <./6_lsystems.pdf>]
+<7_CRNN.pdf, id=880, 722.7pt x 361.35pt>
 File: 7_CRNN.pdf Graphic file (type pdf)
 <use 7_CRNN.pdf>
-Package pdftex.def Info: 7_CRNN.pdf  used on input line 379.
+Package pdftex.def Info: 7_CRNN.pdf  used on input line 393.
 (pdftex.def)             Requested size: 433.62001pt x 216.81168pt.
- [19 <./7_CRNN.pdf>]
-<8_CGM.pdf, id=991, 867.24pt x 433.62pt>
+ [20 <./7_CRNN.pdf>]
+<8_CGM.pdf, id=1003, 867.24pt x 433.62pt>
 File: 8_CGM.pdf Graphic file (type pdf)
 <use 8_CGM.pdf>
-Package pdftex.def Info: 8_CGM.pdf  used on input line 395.
+Package pdftex.def Info: 8_CGM.pdf  used on input line 409.
 (pdftex.def)             Requested size: 433.62001pt x 216.80946pt.
- [20] [21 <./8_CGM.pdf>]
-<9_SIPGS.pdf, id=1091, 433.62pt x 180.675pt>
+ [21] [22 <./8_CGM.pdf>]
+<9_SIPGS.pdf, id=1103, 433.62pt x 180.675pt>
 File: 9_SIPGS.pdf Graphic file (type pdf)
 <use 9_SIPGS.pdf>
-Package pdftex.def Info: 9_SIPGS.pdf  used on input line 407.
+Package pdftex.def Info: 9_SIPGS.pdf  used on input line 421.
 (pdftex.def)             Requested size: 433.62001pt x 180.68282pt.
- [22 <./9_SIPGS.pdf>] [23] [24] [25] (./main.bbl
+ [23 <./9_SIPGS.pdf>] [24] [25] [26] (./main.bbl
 Underfull \hbox (badness 3815) in paragraph at lines 9--14
 []\OT1/cmr/m/n/10 Alisher Mirz-abaev, Lennart Ols-son, Rachel Bezner Kerr, Pra-jal Prad-han, Marta
  []
 
-[26]
-Underfull \hbox (badness 1052) in paragraph at lines 108--112
+[27]
+Underfull \hbox (badness 1102) in paragraph at lines 97--103
+\OT1/cmr/m/n/10 for plant ge-net-ics re-search.  \OT1/cmr/m/it/10 Field Crops Re-search\OT1/cmr/m/n/10 , 133:101--112, 2012.  ISSN 0378-
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 105--111
+[]\OT1/cmr/m/n/10 David M. Deery and Ham-lyn G. Jones.  Field phe-nomics: Will it en-able
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 105--111
+\OT1/cmr/m/n/10 crop im-prove-ment?  \OT1/cmr/m/it/10 Plant Phe-nomics\OT1/cmr/m/n/10 , 2021:9871989, 2021.  ISSN 2643-6515.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--111
+\OT1/cmr/m/n/10 doi:[]https://doi.org/10.34133/2021/9871989[].  URL []$\OT1/cmtt/m/n/10 https : / / www . sciencedirect . com /
+ []
+
+[28]
+Underfull \hbox (badness 1264) in paragraph at lines 120--126
+[]\OT1/cmr/m/n/10 Jos^^Se Luis Araus and Jill E. Cairns.  Field high-throughput phe-no-typ-ing: the new
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 146--150
 []\OT1/cmr/m/n/10 Bruno Basso, Lin Liu, and Joe T. Ritchie.  A com-pre-hen-sive re-view of the ceres-
  []
 
-[27] [28] [29] [30] [31] [32]
-Underfull \hbox (badness 1515) in paragraph at lines 470--474
+[29] [30] [31] [32] [33] [34]
+Underfull \hbox (badness 1515) in paragraph at lines 508--512
 []\OT1/cmr/m/n/10 Dmitrii Shadrin, Ta-tiana Pod-lad-chikova, George Ovchin-nikov, Artem Pavlov, Mariia
  []
 
-[33]
-Underfull \hbox (badness 1527) in paragraph at lines 540--544
+[35]
+Underfull \hbox (badness 1527) in paragraph at lines 578--582
 []\OT1/cmr/m/n/10 Sriram Para-sur-ama, Darshi Ba-nan, Kyung-dahm Yun, Sharon Doty, and Soo-Hyung
  []
 
-[34]
-Underfull \hbox (badness 1097) in paragraph at lines 629--634
+[36]
+Underfull \hbox (badness 1097) in paragraph at lines 667--672
 []\OT1/cmr/m/n/10 Shunsuke Saku-rai., Hideaki Uchiyama., At-shushi Shi-mada., and Rin-Ichiro Taniguchi.
  []
 
-[35] [36]) [37] (./main.aux)
+[37]) [38] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 71946BFEB579B6D20F91AA2EFA4EE832;7238.
+(rerunfilecheck)             Checksum: 7D894D54C965E7FB4C715131BE812AEF;7392.
  ) 
 Here is how much of TeX's memory you used:
- 13434 strings out of 474222
- 216755 string characters out of 5748733
- 1950975 words of memory out of 5000000
- 35304 multiletter control sequences out of 15000+600000
+ 13454 strings out of 474222
+ 217139 string characters out of 5748733
+ 1951975 words of memory out of 5000000
+ 35318 multiletter control sequences out of 15000+600000
  567229 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,14n,93p,2241b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,14n,93p,2241b,788s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0700.pfb>
-Output written on main.pdf (37 pages, 3379434 bytes).
+Output written on main.pdf (38 pages, 3387090 bytes).
 PDF statistics:
- 1477 PDF objects out of 1728 (max. 8388607)
- 1008 compressed objects within 11 object streams
- 211 named destinations out of 1000 (max. 500000)
+ 1511 PDF objects out of 1728 (max. 8388607)
+ 1041 compressed objects within 11 object streams
+ 217 named destinations out of 1000 (max. 500000)
  310 words of extra memory for PDF output out of 10000 (max. 10000000)
 

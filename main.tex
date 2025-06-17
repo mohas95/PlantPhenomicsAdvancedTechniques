@@ -35,7 +35,8 @@
 %%%%%% Title %%%%%%
 % Full titles can be a maximum of 100 characters, including spaces. 
 % Title Format: Use title case, capitalizing the first letter of each word, except for certain small words, such as articles and short prepositions
-\title{Predictive Pattern Recognition Techniques Towards Spatiotemporal Representation of Plant Growth in Simulated and Controlled Environments: A Comprehensive Review}
+% \title{Predictive Pattern Recognition Techniques Towards Spatiotemporal Representation of Plant Growth in Simulated and Controlled Environments: A Comprehensive Review}
+\title{Predictive Modeling and Spatiotemporal Representations of Plant Growth in Simulated and Controlled Environments: A Comprehensive Review}
 
 %%%%%% Authors %%%%%%
 % Authors should be listed in order of contribution to the paper, by first name, then middle initial (if any), followed by last name.
@@ -83,11 +84,24 @@ With the growing prevalence of challenges in global food systems, including rest
 Recent developments in computational and algorithmic theories, coupled with innovations in data collection and fusion techniques, have opened new avenues for exploring plant phenotypes and growth patterns within simulated and controlled environments \cite{10.1111/tpj.14722}. These environments allow for the precise manipulation of variables such as light, temperature, humidity, and nutrient availability, enabling researchers to study the dynamic interactions that influence plant development. By leveraging techniques in predictive pattern recognition, models can be developed to accurately capture and represent plant growth behaviors.
 
 %%%%%% Background %%%%%%
-\subsection{Background}\label{Background}
-\subsubsection{Rebuttal: Comparing Controlled and Open Field Agricultural Systems}
-To contextualize the focus of this review, it is necessary to highlight the differences in the observational parameters between controlled environment and open field agricultural systems. Open field environments are characterized by 
+% \subsection{Background}\label{Background}
+\subsection{Rebuttal: Comparing Controlled and Open Field Environments}
+To contextualize the focus of this review, it is necessary to compare the differences in observational parameters between controlled environment and open field systems. 
+Open field environments, as with traditional agricultural cropping systems, are characterized by the exposure to highly variable and often uncontrollable factors including precipitation, solar conditions, climate fluctuation, and biotic stressors such as pest, pathogens, and soil microbe root interactions. 
+These fluctuations introduce noise and confounding variables into experimental data, making it difficult to isolate causal relationships in plant development. 
+Moreover, instrumentation methods for capturing these factors of variation (FOV) are often developed for constrained experiments, where samples are collected manually, and remain difficult to scale for application in traditional agricultural systems. Thus, outlooks within open-field research often highlight the bottlenecks in sensing and data handling which in turn limit the assessment of physiological development and crop forecasting to sparse spatiotemporal samples of FOV\cite{10.1093/jxb/erv345,WHITE2012101}.    
+However, due to the desire for open environment resilient plant varieties for outdoor cropping systems, trends in field-based phenomics research have primarily focused on phenotype-genotype mapping for applications in breeding programs within open-field environments \cite{DEERY20219871989,nph.15817,ARAUS201452}. 
 
-\subsubsection{Predictive Modeling in Agriculture}
+Controlled environments are typically found within CEA systems such as greenhouses, vertical farms, and growth chambers and are characterized by a confined growing space in which the environmental conditions are known, regulated, or fully controlled. 
+These controlled environment conditions give rise to regularized observations made on plant behavior by constraining some FOVs within known parameterized boundaries.  
+While not all conditions can be isolated and controlled, factors such 
+
+Thus it is the belief that we shal simulate mm,m,m,
+
+\subsection{Rebuttal: Defining Simulated Environments}
+
+
+\subsection{Background: Predictive Plant Growth Modeling}
 Predictive models within plant research are often dominated by a frequentist approach to statistical inference, where empirical observations and static conditions are tested against hypotheses to determine the probable outcome through confidence intervals or point estimations. This statistical approach is favored within the field for its simplicity in analysis and interpretation. Frequentist methods, including various forms of regression modeling, provide robust tools for analyzing experimental data and have become the standard in plant research due to their well-established procedures and ease of use \cite{hoshmand2018design,bender2020statistical}. However, this experiment-centric approach is often limited when applied toward plant observation tasks that involve complex data structures, as with analyzing sequential and spatiotemporal images collected within the domain of high-throughput plant phenotyping (HTPP). Moreover, plant growth modeling and forecasting is an ill-posed problem where the trajectory of a plant’s development does not have a unique solution. Dynamic growing conditions and stochastic elements within plant development are prevalent due to the inherent variability and uncertainty that exists in biological systems. For example, plant growth is influenced by numerous interacting factors, including genetic, environmental, and management variables, which can lead to highly complex and non-linear relationships. Thus methods for regularization of the problem should be explored.
 
 \begin{figure}[t]
