@@ -100,35 +100,35 @@ While not all conditions can be isolated and controlled, factors such light inte
 Controlled environments lend themselves well to modeling systems as instrumentation and control systems are easily integrated and necessary to maintain optimal conditions for plant growth. 
 These measurements can then be parameterized to develop advanced representation models for predictive forecasting and simulation.
 
-\begin{table}[h]
-    \centering
-    \caption{Typical Parameters Controlled in Controlled Environment Agriculture (CEA)}
-    \label{tab:CEA_parameters}
-        \begin{tabular}{L{3cm}L{8cm}L{2cm}}
-            \toprule
-            \textbf{Parameter} & \textbf{Description}& \textbf{References} \\
-            \hline
-            Air temperature & Precise regulation of day/night temperatures to optimize growth, flowering, transpiration. & \\
-            \hline
-            CO\textsubscript{2} concentration & Enrichment to enhance photosynthesis and yield; timing and dose controlled via sensors. &  \\
-            \hline
-            Relative humidity & Maintained within optimal range to regulate transpiration and reduce pathogen risk. &  \\
-            \hline
-            Light intensity / spectrum / duration & LED lighting systems tailored for growth stage: PAR level, spectrum composition, photoperiod control. &  \\
-            \hline
-            Airflow / ventilation / air velocity & Fans and vents employed for climate uniformity, gas exchange, leaf temperature control. & \\
-            \hline
-            Nutrient solution pH & Acid/base adjustment to ensure optimal uptake in hydroponics and aeroponics. &  \\
-            \hline
-            Nutrient EC / concentration & Electrical conductivity monitored to maintain appropriate ion availability for plant uptake. &  \\
-            \hline
-            Water temperature & Regulated to maintain oxygen levels and prevent root diseases in DWC systems.         &  \\
-            \hline
-            Nutrient solution dissolved oxygen & Aeration control to support root respiration and growth in hydroponic systems.&  \\
-            \bottomrule
-        \end{tabular}
+% \begin{table}[h]
+%     \centering
+%     \caption{Typical Parameters Controlled in Controlled Environment Agriculture (CEA)}
+%     \label{tab:CEA_parameters}
+%         \begin{tabular}{L{3cm}L{8cm}L{2cm}}
+%             \toprule
+%             \textbf{Parameter} & \textbf{Description}& \textbf{References} \\
+%             \hline
+%             Air temperature & Precise regulation of day/night temperatures to optimize growth, flowering, transpiration. & \\
+%             \hline
+%             CO\textsubscript{2} concentration & Enrichment to enhance photosynthesis and yield; timing and dose controlled via sensors. &  \\
+%             \hline
+%             Relative humidity & Maintained within optimal range to regulate transpiration and reduce pathogen risk. &  \\
+%             \hline
+%             Light intensity / spectrum / duration & LED lighting systems tailored for growth stage: PAR level, spectrum composition, photoperiod control. &  \\
+%             \hline
+%             Airflow / ventilation / air velocity & Fans and vents employed for climate uniformity, gas exchange, leaf temperature control. & \\
+%             \hline
+%             Nutrient solution pH & Acid/base adjustment to ensure optimal uptake in hydroponics and aeroponics. &  \\
+%             \hline
+%             Nutrient EC / concentration & Electrical conductivity monitored to maintain appropriate ion availability for plant uptake. &  \\
+%             \hline
+%             Water temperature & Regulated to maintain oxygen levels and prevent root diseases in DWC systems.         &  \\
+%             \hline
+%             Nutrient solution dissolved oxygen & Aeration control to support root respiration and growth in hydroponic systems.&  \\
+%             \bottomrule
+%         \end{tabular}
 
-    \end{table}
+%     \end{table}
     
 \subsection{Defining Simulated Environments and Plant Growth}
 The phenotypic outcomes of a plant are influenced by high-dimensional interactions between genotype, environment, and management (G$\times$E$\times$M), often resulting in complex non-linear responses \cite{cooper2022predicting,MESSINA2018151,mahmood2022genotype}. 
@@ -187,12 +187,15 @@ Recent state-of-the-art (SOTA) developments made within the field of HTPP have l
 While these datasets are applied towards methods for assessing crop quality and quantifying biophysical properties throughout various stages of a plant's growth cycle, the scope of phenomics research is often limited to recognition tasks such as detection and segmentation, with limited work done on CV-based predictive forecasting. In contrast, this review focuses on work that explore the spatiotemporal components of plant phenomics research and the representation of plant traits through time.
 
 \subsection{Literature Overview}
-A rigorous screening process was applied to articles indexed within the following publication databases; SCOPUS, Web of Science (WOS), PubMed, and Google Scholar. A total of 50 method papers on plant growth modeling and 22 temporal dataset papers were selected and reviewed (Figure \ref{publication overview}). These papers include articles published within the last 10 years, 2015-2025, with a particular focus on assessing plant traits over time, where temporal analysis is a key component to the method or dataset. Articles in which traits are observed sparsely over time, for example traits observed once at the beginning of an experiment and once after harvest, are excluded from this review, opting for consistent, relatively high temporal resolution tracking of traits over time.
+A rigorous screening process was applied to articles indexed within the following publication databases: SCOPUS, Web of Science (WOS), PubMed, and Google Scholar. 
+A total of 51 method papers on plant growth modeling and 22 temporal dataset papers were selected and reviewed (Figure \ref{publication overview}). 
+These papers include articles published between the years, 2015-2025, with a particular focus on assessing plant traits over time, where temporal analysis is a key component to the method or dataset. 
+Articles in which traits are observed sparsely over time, for example traits observed once at the beginning of an experiment and once after harvest, are excluded from this review, opting for consistent, relatively high temporal resolution tracking of traits over time.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{2_Publication_Overview}
-\caption{Breakdown of publications reviewed, categorized by modeling approaches and dataset types. The figure highlights the distribution of works across regression models, latent representation models, functional-structural plant models, and computer vision-based techniques, as well as their focus on temporal scalar, 2D image-based, and 3D point cloud datasets.\label{publication overview}}
+\caption{Breakdown of publications reviewed, categorized by modeling approaches (left) and dataset types (right). The figure highlights the distribution of works across regression models, latent representation models, functional-structural plant models, and computer vision-based techniques, as well as their focus on temporal scalar, 2D image-based, and 3D point cloud datasets.\label{publication overview}}
 \end{figure}
 
 
@@ -314,10 +317,11 @@ Furthermore, temporal data often contain complex dependencies due to autocorrela
 %%%%%% Latent Representation Models %%%%%%
 
 \subsection{Latent Representation Models}
-Quantitative traits can be assessed through time by representing their complex temporal dependencies through some reduced latent representations, or hidden state. These representations can be applied as a transformation on sequential inputs to derive predictive outputs. In this section we explore various methods for extracting latent representation from the temporal dependencies between scalar quantitative traits and the models used to perform sequence-based inference from these hidden states.
+Quantitative traits can be assessed through time by representing their complex temporal dependencies through some reduced latent representations\footnote{Latent representations refer to reduced-dimensional, abstract encodings of quantitative trait data that capture temporal dynamics (time dimension) and underlying structure.}, or hidden state. 
+These representations can be applied as a transformation on sequential inputs to derive predictive outputs. In this section we explore various methods for extracting latent representation from the temporal dependencies between scalar quantitative traits and the models used to perform sequence-based inference from these hidden states.
 
 \subsubsection{Dimensionality Reduction through Principal Component Analysis}
-Methods like those employed by Adak et al. \cite{1jkae092FPCA}, aim to extract key features from time-series data that correspond to a reduced representation of growth rates using principal component analysis (PCA). In this context, PCA is a pattern recognition technique that captures the temporal components of the evolution of traits, such as key moments found within vegetative indices (VI) of plants of differing genotypes. These reduced representations effectively act as growth-rate phenotypes, embodying the entirety of a plant's growth cycle and can be incorporated as an independent variable to improve accuracy of genomic and phenomic prediction models. However, meaningful interpretations of these phenotypes, especially for simulation purposes, are lost as these representations are abstracted into a reduced latent form. Interpretations of these representations back to the time domain for inference requires a decoding process. We explore such a process for decoding a latent representation in Section \ref{rnn}. 
+Methods like those employed by Adak et al. \cite{1jkae092FPCA}, aim to extract key features from time-series data that correspond to a reduced representation of growth rates using principal component analysis (PCA). In this context, PCA is a pattern recognition technique that captures the temporal components of the evolution of traits, such as key moments found within vegetative indices (VI) of plants of differing genotypes. These reduced representations effectively act as growth-rate phenotypes, embodying the entirety of a plant's growth cycle and can be incorporated as an independent variable to improve accuracy of genomic and phenomic prediction models \cite{bimj.202000315}. However, meaningful interpretations of these phenotypes, especially for simulation purposes, are lost as these representations are abstracted into a reduced latent form. Interpretations of these representations back to the time domain for inference requires a decoding process. We explore such a process for decoding a latent representation in Section \ref{rnn}. 
 
 \subsubsection{Neural Network-based Models}
 More recently, with advancements in computational systems and optimization algorithms, NNs have been employed in models to perform powerful opaque mappings between inputs and outputs. As such, they have expanded the range of tools available for dimensionality reduction and feature extraction. While some early implementations of simple feed forward DL systems are employed for pattern recognition, they often perform inference on fixed time windows which result in the same pitfalls of regression systems described in Section \ref{pitfalls of regression}. For instance, Matsumura et al. \cite{MATSUMURA2015} employs a multi-layer perceptron (MLP) with inputs of early season parameters in the form of a fixed window to forecast end of season outputs. While this approach can capture relationships within the window, it fails to incorporate longer-term temporal dependencies beyond the window itself. This results in models that are limited in their ability to adapt to changes outside the fixed period, potentially leading to overfitting to short-term patterns and reduced generalizability to future time steps or different seasons.
@@ -454,7 +458,7 @@ To mitigate problems in image quality, recent work has focused on improving the 
 
 \subsubsection{Frame Synthesis Through Conditional Generative Models}
 \label{generative process}
-A probabilistic approach can be taken to regularize the plant growth modeling problem and to guide the prediction process by incorporating stochastic elements caused by dynamic growing conditions. In such methods, a generative model is employed for the task of frame synthesis to predicted the expected frames of the plant growth scene. While generative models are typically used as data augmentation techniques for enhancing sparse agricultural datasets \cite{doi:10.34133/plantphenomics.0041, LU2022107208}, few works have explored the use of conditional generative models (CGM) for guided image synthesis. A probabilistic approach using a CGM is illustrated by a generic conditional variational autoencoder (CVAE) shown in figure \ref{fig:cgm}. Instead of performing direct deterministic mappings between inputs and output frames, the objective of the CVAE is to learn a prior distribution, $p_\theta(z|x)$, where $z\sim p_\theta(z|x)$ is the latent representation of scene at a given point in time, $t$, directed by some conditional vector $x$. The prior distribution can be sampled such that it incorporates stochasticity through auxiliary variable, $\epsilon$. The network structure explored within the domain of plant growth modeling typically consists of a probabilistic latent variable encoder and a deterministic decoder to render output frames, $\hat{y} \sim p_\theta(y|z,x)$.
+A probabilistic approach can be taken to regularize the plant growth modeling problem and to guide the prediction process by incorporating stochastic elements caused by dynamic growing conditions. In such methods, a generative model is employed for the task of frame synthesis to predict the expected frames of the plant growth scene. While generative models are typically used as data augmentation techniques for enhancing sparse agricultural datasets \cite{doi:10.34133/plantphenomics.0041, LU2022107208}, few works have explored the use of conditional generative models (CGM) for guided image synthesis. A probabilistic approach using a CGM is illustrated by a generic conditional variational autoencoder (CVAE) shown in figure \ref{fig:cgm}. Instead of performing direct deterministic mappings between inputs and output frames, the objective of the CVAE is to learn a prior distribution, $p_\theta(z|x)$, where $z\sim p_\theta(z|x)$ is the latent representation of scene at a given point in time, $t$, directed by some conditional vector $x$. The prior distribution can be sampled such that it incorporates stochasticity through auxiliary variable, $\epsilon$. This process is known as latent sampling and it guides the generation process by  randomly sampling from an underlying latent distribution that captures the hidden structure of the data. The network structures explored within the domain of plant growth modeling typically consists of a probabilistic latent variable encoder and a deterministic decoder to render output frames, $\hat{y} \sim p_\theta(y|z,x)$.
 
 \begin{figure}[t]
 \centering
@@ -477,31 +481,58 @@ Debbagh et al. \cite{Debbagh2024SIPGS} proposes a sequence-informed approach whi
 \section{Perspectives}
 \label{sec:perspectives}
 \subsection{Data-Driven vs Experiment-Driven Approaches}
-Plant growth modeling has traditionally relied on experiment-driven approaches, where predefined hypotheses are tested using carefully controlled experiments. These methods provide valuable insights into specific biological processes but are often time-consuming, resource-intensive, and limited in scalability. By contrast, data-driven and model-centric approaches leverage large datasets and machine learning techniques to capture patterns and relationships that might not be immediately apparent within an experiment-driven framework \cite{roscher2023datacentricdigitalagricultureperspective}. The works presented in this review demonstrate a shift towards the latter, as challenges with dynamic updating and long-term predictions are prevalent in simple regression methods as described in Section \ref{pitfalls of regression}. 
+Plant growth modeling has traditionally relied on experiment-driven approaches, where predefined hypotheses are tested using carefully controlled experiments. 
+These methods provide valuable insights into specific biological processes but are often time-consuming, resource-intensive, and limited in scalability\cite{akhavizadegan2021time,suliansyah2023literature,kephe2021challenges}. 
+By contrast, data-driven and model-centric approaches leverage large datasets and machine learning techniques to capture patterns and relationships that might not be immediately apparent within an experiment-driven framework \cite{roscher2023datacentricdigitalagricultureperspective}. The works presented in this review demonstrate a shift towards the latter, as challenges with dynamic updating and long-term predictions are prevalent in simple regression methods as described in Section \ref{pitfalls of regression}. 
 
-A shift towards 2D image and 3D point cloud data for describing plant phenemena, as with HTPP datasets, requires model frameworks designed for interpreting and processing higher order data-structures. This inherently moves prospective research towards the CV-based models described in Sections \ref{sec:nextframeprediction} and \ref{generative process}. However, the advantages of these data-driven approaches come with the limitation of reduced interpretability and a lack of the biological grounding inherent in experiment-driven methods. In contrast, FSPMs provide a robust simulation framework for structured representation that is highly controllable, but is completely reliant on experiment-driven approaches for developing knowledge-based rule sets.
+The shift towards 2D image and 3D point cloud data for describing plant phenemena, as with HTPP datasets, requires model frameworks designed for interpreting and processing higher order data-structures\cite{harandi2023make,tpj.17053}. 
+This inherently moves prospective research towards the CV-based models described in Sections \ref{sec:nextframeprediction} and \ref{generative process}. However, the advantages of these data-driven approaches come with the limitation of reduced interpretability and a lack of the biological grounding inherent in experiment-driven methods \cite{mostafa2023explainable}. 
+Model frameworks such as FSPMs present potential opportunities for incorporating knowledge-based approaches for structured representation that is highly controllable, but is completely reliant on experiment-driven approaches for developing knowledge-based rule sets.
 
-Future research in this domain should prioritize the development of hybrid approaches that integrate the strengths of both paradigms. Two key directions are proposed to achieve this goal. The first involves designing model architectures that incorporate knowledge-informed mechanisms, enabling the integration of biological principles and domain expertise into data-driven frameworks. The second focuses on advancing methods for decoding and interpreting opaque models, ensuring that complex representation models provide outputs that align with biological processes and facilitate deeper understanding.
+Future research in this domain should prioritize the development of hybrid approaches that integrate the strengths of both paradigms. 
+Two key directions are proposed to achieve this goal. The first involves designing model architectures that incorporate knowledge-informed mechanisms, enabling the integration of biological principles and domain expertise into data-driven frameworks. 
+This is demonstrated by works that aim to integrate deep learning frameworks into large scale crop models such as CERES and DSSAT \cite{shi2025deep}. The second focuses on advancing methods for decoding and interpreting opaque models, ensuring that complex representation models provide outputs that align with biological processes and facilitate deeper understanding.
 
 \subsection{Dataset Gap}
 
-The shift toward data-driven approaches has placed datasets at the center of plant growth modeling and predictive frameworks. Large-scale, high-quality datasets are necessary for training DL models and validating their predictions. However, the effectiveness of these models are dependent on the availability, diversity, and representativeness of the data. Despite advancements in HTPP platforms, significant gaps remain in the scope, quality, and accessibility of existing \ datasets. 
+The shift toward data-driven approaches has placed datasets at the center of plant growth modeling and predictive frameworks. 
+Large-scale, high-quality datasets are necessary for training DL models and validating their predictions \cite{xu2023embracing,kiab301}. 
+However, the effectiveness of these models are dependent on the availability, diversity, and representativeness of the data \cite{LI2023108412}. 
+Despite advancements in HTPP platforms, significant gaps remain in the scope, quality, and accessibility of existing datasets. 
 
-First, many datasets focus on single time points or static snapshots, which fail to capture the dynamic growth trajectories of plants over time. Existing publicly available datasets that capture longitudinal data (Table \ref{dataset list}) are often scarce, and limited in sample frequency. This is particularly evident for datasets that capture multiple modalities of data including 2D images and 3D point clouds along with environmental parameters. Second, the diversity of crop species represented in current datasets is limited, with a heavy emphasis on staple crops such as maize (\textit{Zea mays}) and soybean (\textit{Glycine max}). This narrow scope restricts the ability of models to generalize across plant species with differing morphologies, such as root vegetables or perennials. Finally, the lack of consolidation of datasets across different research groups and platforms creates significant barriers to broader adoption and cross-comparative studies. Inconsistent formats, annotation practices, and metadata standards hinder the ability to combine datasets, thereby limiting the diversity and scale necessary for developing generalizable models.
+First, many datasets focus on single time points or static snapshots, which fail to capture the dynamic growth trajectories of plants over time. In such cases, works such as Zhu et al. \cite{zhu2020analysing} aim to simulate and analyze the physiological development of soybean plants using interpolated 3D reconstructions of discrete snapshots. 
+Existing publicly available datasets that capture longitudinal data, compiled together and shown in Table \ref{dataset list}, are  scarce and limited in sample frequency. 
+This is particularly evident for datasets that capture multiple modalities of data including 2D images and 3D point clouds along with environmental parameters. 
+Second, the diversity of crop species represented by current datasets in Table \ref{dataset list} and HTTP platforms is limited, with a heavy emphasis on staple crops such as maize (\textit{Zea mays}) and soybean (\textit{Glycine max}) \cite{s141120078}. 
+This narrow scope restricts the ability of models to generalize across plant species with differing morphologies, such as root vegetables or perennials.
+Finally, the lack of consolidation of datasets across different research groups and platforms creates significant barriers to broader adoption and cross-comparative studies. Inconsistent formats, annotation practices, and metadata standards hinder the ability to combine datasets, thereby limiting the diversity and scale necessary for developing generalizable models \cite{baab028}.
 
-To address these gaps, several considerations for developing future datasets are proposed. First, works should aim to apply standardization and open-access practices during dataset development to enable reproducibility and comparability across studies through benchmarking. High-frequency sampling should also be prioritized to produce longitudinal datasets that span entire growth cycles, improving the ability to model and predict temporal dynamics accurately. Furthermore, the development of multi-modal datasets, combining 2D images, 3D point cloud data, and environmental sensor measurements is suggested for capturing a holistic view of plant-environment interactions. Finally, integrating domain knowledge into dataset design to ensure that datasets not only capture observable traits but also reflect underlying biological processes. Such biologically informed datasets will enable models to generate predictions that are both empirically and biologically meaningful.
+To address these gaps, several considerations for developing future datasets are proposed. First, works should aim to apply standardization and open-access practices during dataset development to enable reproducibility and comparability across studies through benchmarking. High-frequency sampling should also be prioritized to produce longitudinal datasets that span entire growth cycles, improving the ability to model and predict temporal dynamics accurately. Furthermore, the development of multi-modal datasets, combining 2D images, 3D point cloud data, and environmental sensor measurements is suggested for capturing a holistic view of plant-environment interactions. Finally, integrating domain knowledge into dataset design to ensure that datasets not only capture observable traits but also reflect underlying biological processes. Such biologically informed datasets will enable models to generate predictions that are both empirically and biologically meaningful \cite{schramowski2020making}.
 
 \subsection{Practical Applications}
 The recent advancements in pattern recognition techniques explored in this review have significant implications for practical applications. While traditional applications include crop yield forecasting and climate simulations, these novel approaches expand the scope to include controlled environment systems, field crop systems, and plant genomics and phenomics research. These advancements allow for precise detection, simulation, and representation of plant growth processes in complex environments.
 
 \subsubsection{Anomaly Detection}
-Anomaly detection and early interventions practices during crop development benefit from predictive pattern recognitions techniques that incorporate dynamic feedback from environmental growing conditions. The focus on the development of models that capture long-term temporal dependencies through sequence-based methods, such as transformers and RNNs, provides an effective approach to identifying deviations in plant growth trajectories. For instance, temporal anomalies such as stunted growth or disease occurrence can be detected in advance by analyzing sequential data from real-time HTPP platform measurements. Moreover, the incorporation multi-modal approaches to combine imaging data with contextual environmental parameters presents a more comprehensive assessment of plant health. These models improve the precision of anomaly detection and allow for dynamic adjustments through intervention and control strategies. Such techniques are particularly useful for mitigating potential yield losses and optimizing resource use in controlled environments and field systems.
+Anomaly detection and early interventions practices during crop development benefit from predictive pattern recognitions techniques that incorporate dynamic feedback from environmental growing conditions. 
+The focus on the development of models that capture long-term temporal dependencies through sequence-based methods, such as transformers and RNNs, provides an effective approach to identifying deviations in plant growth trajectories. 
+For instance, temporal anomalies such as stunted growth or disease occurrence can be detected in advance by analyzing sequential data from real-time HTPP platform measurements \cite{10.3389/fpls.2022.890563}. 
+Moreover, the incorporation multi-modal approaches to combine imaging data with contextual environmental parameters presents a more comprehensive assessment of plant health. 
+Models such as multi-variate transformers have been employed to improve the precision of anomaly detection in time-series data \cite{tuli2022tranad,xu2021anomaly}. Such techniques are particularly useful for early intervention, mitigating potential yield losses and optimizing resource use in controlled environments and field systems.
 
 \subsubsection{Plant-Environment Simulation}
-Simulation frameworks informed by generative and probabilistic models improve the ability to predict plant growth under varying environmental conditions. Models like the CGMs presented in Section \ref{generative process} enable the synthesis of realistic growth trajectories influenced by the spatial and dynamic growing condition, including the distribution of light, nutrient conditions, temperature, and CO\textsubscript{2}. This provides \textit{in silico} methods to inform the structural development process of a controlled plant system and to develop strategies prior to conducting in-field operations. These frameworks allow for resource optimization in controlled environments and improve the forecasting of long-term plant responses to changing environments.
+Simulation frameworks informed by generative and probabilistic models improve the ability to predict plant growth under varying environmental conditions. 
+Models like the CGMs presented in Section \ref{generative process} enable the synthesis of realistic growth trajectories influenced by the spatial and dynamic growing condition, including the distribution of light, nutrient conditions, temperature, and CO\textsubscript{2}\cite{Debbagh2024SIPGS,DREES2021106415}. 
+This provides \textit{in silico} methods to inform the structural development process of a controlled plant system and to develop strategies prior to conducting in-field operations. These frameworks allow for resource optimization in controlled environments and improve the forecasting of long-term plant responses to changing environments.
 
 \subsubsection{Digital Twinning and Representation}
-Digital twinning within plant phenomics typically consists of methods for 3D reconstruction of plant structures taken at sparse static snapshots within its growth cycle. This is often due to limitations in imaging techniques for capturing frequent 3D spatial data during its growth. The structured representation methods explored within this review have implications on expanding this static framework to capture a continuous virtual replica of a plant system during its entire growth cycle. The continuous frame synthesis techniques explored in Debbagh et al. \cite{Debbagh2024SIPGS}, allow for the interpolation of structured outputs between points of time. This presents an opportunity to generate digital plant structures with the guidance of few snapshots of plants. Moreover, the divergence of these plant structures from the snapshots can be explored through simulated growing conditions. 
+Digital twinning is the virtual replication of a physical system, maintained through continuous data exchange, simulation and feedback. 
+Within plant phenomics, digital twinning is limited and typically consists of methods for 3D reconstruction of plant structures taken at sparse static snapshots within its growth cycle. 
+This is often due to limitations in imaging techniques for capturing frequent 3D spatial data during its growth and challenges in continuous collection of auxiliary data \cite{harandi2023make,LI2022106712}. 
+The structured representation methods explored within this review have implications on expanding this static framework to capture a continuous virtual replica of a plant system during its entire growth cycle. 
+The continuous frame synthesis techniques explored in Debbagh et al. \cite{Debbagh2024SIPGS}, allow for the interpolation of structured outputs between points of time. 
+Moreover, FSPMs such as L-systems also demonstrate a potential for continuous state estimation by basing structural development on biological rules as a method that does not rely on continuous data collection \cite{MITSANIS2024108733}. 
+These methods present an opportunity to generate digital plant structures with the guidance of few snapshots of plants. 
+Moreover, the divergence of these plant structures from the snapshots can be explored through simulated growing conditions. 
 
 \section{Conclusion}
 

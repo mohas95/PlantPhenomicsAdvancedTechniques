@@ -1,4 +1,4 @@
-\begin{thebibliography}{122}
+\begin{thebibliography}{142}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -502,6 +502,12 @@ Alper Adak, Aaron~J DeSalvio, Mustafa~A Arik, and Seth~C Murray.
 \newblock \emph{G3 Genes|Genomes|Genetics}, 14\penalty0 (7):\penalty0 jkae092, 05 2024.
 \newblock \doi{10.1093/g3journal/jkae092}.
 
+\bibitem[Xu et~al.(2021{\natexlab{a}})Xu, Li, and Qiu]{bimj.202000315}
+Yuhang Xu, Yehua Li, and Yumou Qiu.
+\newblock Growth dynamics and heritability for plant high-throughput phenotyping studies using hierarchical functional data analysis.
+\newblock \emph{Biometrical Journal}, 63\penalty0 (6):\penalty0 1325--1341, 2021{\natexlab{a}}.
+\newblock \doi{10.1002/bimj.202000315}.
+
 \bibitem[Matsumura et~al.(2015)Matsumura, Gaitan, Sugimoto, Cannon, and Hsieh]{MATSUMURA2015}
 K.~Matsumura, C.~F. Gaitan, K.~Sugimoto, A.~J. Cannon, and W.~W. Hsieh.
 \newblock Maize yield forecasting by linear regression and artificial neural networks in jilin, china.
@@ -746,10 +752,10 @@ Taehyeon Kim, Sang-Ho Lee, and Jong-Ok Kim.
 \newblock \emph{IEEE Access}, 10:\penalty0 37731--37742, 2022.
 \newblock \doi{10.1109/ACCESS.2022.3165211}.
 
-\bibitem[Li et~al.(2023)Li, Zhan, Liu, Lu, Jiang, Guo, Chapman, Ge, Solan, Ding, and Baret]{doi:10.34133/plantphenomics.0041}
+\bibitem[Li et~al.(2023{\natexlab{a}})Li, Zhan, Liu, Lu, Jiang, Guo, Chapman, Ge, Solan, Ding, and Baret]{doi:10.34133/plantphenomics.0041}
 Yinglun Li, Xiaohai Zhan, Shouyang Liu, Hao Lu, Ruibo Jiang, Wei Guo, Scott Chapman, Yufeng Ge, Benoit Solan, Yanfeng Ding, and Fr{\'e}d{\'e}ric Baret.
 \newblock Self-supervised plant phenotyping by combining domain adaptation with 3d plant model simulations: Application to wheat leaf counting at seedling stage.
-\newblock \emph{Plant Phenomics}, 5:\penalty0 0041, 2023.
+\newblock \emph{Plant Phenomics}, 5:\penalty0 0041, 2023{\natexlab{a}}.
 \newblock \doi{10.34133/plantphenomics.0041}.
 
 \bibitem[Lu et~al.(2022)Lu, Chen, Olaniyi, and Huang]{LU2022107208}
@@ -792,8 +798,129 @@ Mohamed Debbagh, Yixue Liu, Zhouzhou Zheng, Xintong Jiang, Shangpeng Sun, and Ma
 \newblock ISBN 978-3-031-71602-7.
 \newblock \doi{10.1007/978-3-031-71602-7_26}.
 
+\bibitem[Akhavizadegan et~al.(2021)Akhavizadegan, Ansarifar, Wang, Huber, and Archontoulis]{akhavizadegan2021time}
+Faezeh Akhavizadegan, Javad Ansarifar, Lizhi Wang, Isaiah Huber, and Sotirios~V Archontoulis.
+\newblock A time-dependent parameter estimation framework for crop modeling.
+\newblock \emph{Scientific reports}, 11\penalty0 (1):\penalty0 11437, 2021.
+\newblock \doi{10.1038/s41598-021-90835-x}.
+
+\bibitem[Suliansyah et~al.(2023)Suliansyah, Arlius, Chaniago, Xuan, Van~Quang, et~al.]{suliansyah2023literature}
+Irfan Suliansyah, Feri Arlius, Irawati Chaniago, Nguyen Thi~Thanh Xuan, Pham Van~Quang, et~al.
+\newblock Literature review crop modeling and introduction a simple crop model.
+\newblock \emph{Journal of Applied Agricultural Science and Technology}, 7\penalty0 (3):\penalty0 197--216, 2023.
+\newblock \doi{10.55043/jaast.v7i3.123}.
+
+\bibitem[Kephe et~al.(2021)Kephe, Ayisi, and Petja]{kephe2021challenges}
+Priscilla~Ntuchu Kephe, Kingsley~Kwabena Ayisi, and Brilliant~Mareme Petja.
+\newblock Challenges and opportunities in crop simulation modelling under seasonal and projected climate change scenarios for crop production in south africa.
+\newblock \emph{Agriculture \& Food Security}, 10\penalty0 (1):\penalty0 1--24, 2021.
+\newblock \doi{10.1186/s40066-020-00283-5}.
+
 \bibitem[Roscher et~al.(2023)Roscher, Roth, Stachniss, and Walter]{roscher2023datacentricdigitalagricultureperspective}
 Ribana Roscher, Lukas Roth, Cyrill Stachniss, and Achim Walter.
 \newblock Data-centric digital agriculture: A perspective, 2023.
+
+\bibitem[Harandi et~al.(2023)Harandi, Vandenberghe, Vankerschaver, Depuydt, and Van~Messem]{harandi2023make}
+Negin Harandi, Breght Vandenberghe, Joris Vankerschaver, Stephen Depuydt, and Arnout Van~Messem.
+\newblock How to make sense of 3d representations for plant phenotyping: a compendium of processing and analysis techniques.
+\newblock \emph{Plant Methods}, 19\penalty0 (1):\penalty0 60, 2023.
+\newblock \doi{10.1186/s13007-023-01031-z}.
+
+\bibitem[Hodač et~al.(2024)Hodač, Karbstein, Kösters, Rzanny, Wittich, Boho, Šubrt, Mäder, and Wäldchen]{tpj.17053}
+Ladislav Hodač, Kevin Karbstein, Lara Kösters, Michael Rzanny, Hans~Christian Wittich, David Boho, David Šubrt, Patrick Mäder, and Jana Wäldchen.
+\newblock Deep learning to capture leaf shape in plant images: Validation by geometric morphometrics.
+\newblock \emph{The Plant Journal}, 120\penalty0 (4):\penalty0 1343--1357, 2024.
+\newblock \doi{10.1111/tpj.17053}.
+
+\bibitem[Mostafa et~al.(2023)Mostafa, Mondal, Panjvani, Kochian, and Stavness]{mostafa2023explainable}
+Sakib Mostafa, Debajyoti Mondal, Karim Panjvani, Leon Kochian, and Ian Stavness.
+\newblock Explainable deep learning in plant phenotyping.
+\newblock \emph{Frontiers in Artificial Intelligence}, 6:\penalty0 1203546, 2023.
+\newblock \doi{10.3389/frai.2023.1203546}.
+
+\bibitem[Shi et~al.(2025)Shi, Han, Zhang, Sobeih, Gaiser, Thuy, Behrend, Srivastava, Halder, and Ewert]{shi2025deep}
+Yue Shi, Liangxiu Han, Xin Zhang, Tam Sobeih, Thomas Gaiser, Nguyen~Huu Thuy, Dominik Behrend, Amit~Kumar Srivastava, Krishnagopal Halder, and Frank Ewert.
+\newblock Deep learning meets process-based models: A hybrid approach to agricultural challenges.
+\newblock \emph{arXiv preprint arXiv:2504.16141}, 2025.
+\newblock \doi{10.48550/arXiv.2504.16141}.
+
+\bibitem[Xu et~al.(2023)Xu, Kim, Yang, Fuentes, Meng, Yoon, Kim, and Park]{xu2023embracing}
+Mingle Xu, Hyongsuk Kim, Jucheng Yang, Alvaro Fuentes, Yao Meng, Sook Yoon, Taehyun Kim, and Dong~Sun Park.
+\newblock Embracing limited and imperfect training datasets: opportunities and challenges in plant disease recognition using deep learning.
+\newblock \emph{Frontiers in Plant Science}, 14:\penalty0 1225409, 2023.
+\newblock \doi{10.3389/fpls.2023.1225409}.
+
+\bibitem[Danilevicz et~al.(2021)Danilevicz, Bayer, Nestor, Bennamoun, and Edwards]{kiab301}
+Monica~F. Danilevicz, Philipp~E. Bayer, Benjamin~J. Nestor, Mohammed Bennamoun, and David Edwards.
+\newblock Resources for image-based high-throughput phenotyping in crops and data sharing challenges.
+\newblock \emph{Plant Physiology}, 187\penalty0 (2):\penalty0 699--715, 06 2021.
+\newblock ISSN 0032-0889.
+\newblock \doi{10.1093/plphys/kiab301}.
+
+\bibitem[Li et~al.(2023{\natexlab{b}})Li, Chen, Qi, Li, Huang, Morris, and Tan]{LI2023108412}
+Jiajia Li, Dong Chen, Xinda Qi, Zhaojian Li, Yanbo Huang, Daniel Morris, and Xiaobo Tan.
+\newblock Label-efficient learning in agriculture: A comprehensive review.
+\newblock \emph{Computers and Electronics in Agriculture}, 215:\penalty0 108412, 2023{\natexlab{b}}.
+\newblock ISSN 0168-1699.
+\newblock \doi{10.1016/j.compag.2023.108412}.
+
+\bibitem[Zhu et~al.(2020)Zhu, Sun, Yan, Yan, Yu, Shi, Hu, Jiang, Xin, Zhang, et~al.]{zhu2020analysing}
+Rongsheng Zhu, Kai Sun, Zhuangzhuang Yan, Xuehui Yan, Jianglin Yu, Jia Shi, Zhenbang Hu, Hongwei Jiang, Dawei Xin, Zhanguo Zhang, et~al.
+\newblock Analysing the phenotype development of soybean plants using low-cost 3d reconstruction.
+\newblock \emph{Scientific reports}, 10\penalty0 (1):\penalty0 7055, 2020.
+\newblock \doi{10.1038/s41598-020-63720-2}.
+
+\bibitem[Li et~al.(2014)Li, Zhang, and Huang]{s141120078}
+Lei Li, Qin Zhang, and Danfeng Huang.
+\newblock A review of imaging techniques for plant phenotyping.
+\newblock \emph{Sensors}, 14\penalty0 (11):\penalty0 20078--20111, 2014.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s141120078}.
+
+\bibitem[Andrés-Hernández et~al.(2021)Andrés-Hernández, Halimi, Mauleon, Mayes, Baten, and King]{baab028}
+Liliana Andrés-Hernández, Razlin~Azman Halimi, Ramil Mauleon, Sean Mayes, Abdul Baten, and Graham~J King.
+\newblock Challenges for fair-compliant description and comparison of crop phenotype data with standardized controlled vocabularies.
+\newblock \emph{Database}, 2021:\penalty0 baab028, 05 2021.
+\newblock ISSN 1758-0463.
+\newblock \doi{10.1093/database/baab028}.
+
+\bibitem[Schramowski et~al.(2020)Schramowski, Stammer, Teso, Brugger, Herbert, Shao, Luigs, Mahlein, and Kersting]{schramowski2020making}
+Patrick Schramowski, Wolfgang Stammer, Stefano Teso, Anna Brugger, Franziska Herbert, Xiaoting Shao, Hans-Georg Luigs, Anne-Katrin Mahlein, and Kristian Kersting.
+\newblock Making deep neural networks right for the right scientific reasons by interacting with their explanations.
+\newblock \emph{Nature Machine Intelligence}, 2\penalty0 (8):\penalty0 476--486, 2020.
+\newblock \doi{10.1038/s42256-020-0212-3}.
+
+\bibitem[Cheng et~al.(2022)Cheng, Ma, Wang, and Wang]{10.3389/fpls.2022.890563}
+Weijun Cheng, Tengfei Ma, Xiaoting Wang, and Gang Wang.
+\newblock Anomaly detection for internet of things time series data using generative adversarial networks with attention mechanism in smart agriculture.
+\newblock \emph{Frontiers in Plant Science}, Volume 13 - 2022, 2022.
+\newblock ISSN 1664-462X.
+\newblock \doi{10.3389/fpls.2022.890563}.
+
+\bibitem[Tuli et~al.(2022)Tuli, Casale, and Jennings]{tuli2022tranad}
+Shreshth Tuli, Giuliano Casale, and Nicholas~R Jennings.
+\newblock Tranad: Deep transformer networks for anomaly detection in multivariate time series data.
+\newblock \emph{arXiv preprint arXiv:2201.07284}, 2022.
+\newblock \doi{10.48550/arXiv.2201.07284}.
+
+\bibitem[Xu et~al.(2021{\natexlab{b}})Xu, Wu, Wang, and Long]{xu2021anomaly}
+Jiehui Xu, Haixu Wu, Jianmin Wang, and Mingsheng Long.
+\newblock Anomaly transformer: Time series anomaly detection with association discrepancy.
+\newblock \emph{arXiv preprint arXiv:2110.02642}, 2021{\natexlab{b}}.
+\newblock \doi{10.48550/arXiv.2110.02642}.
+
+\bibitem[Li et~al.(2022)Li, Zhu, and Wang]{LI2022106712}
+Wei Li, Deli Zhu, and Qing Wang.
+\newblock A single view leaf reconstruction method based on the fusion of resnet and differentiable render in plantgrowthdigitaltwinsystem.
+\newblock \emph{Computers and Electronics in Agriculture}, 193:\penalty0 106712, 2022.
+\newblock ISSN 0168-1699.
+\newblock \doi{10.1016/j.compag.2022.106712}.
+
+\bibitem[Mitsanis et~al.(2024)Mitsanis, Hurst, and Tekinerdogan]{MITSANIS2024108733}
+Christos Mitsanis, William Hurst, and Bedir Tekinerdogan.
+\newblock A 3d functional plant modelling framework for agricultural digital twins.
+\newblock \emph{Computers and Electronics in Agriculture}, 218:\penalty0 108733, 2024.
+\newblock ISSN 0168-1699.
+\newblock \doi{10.1016/j.compag.2024.108733}.
 
 \end{thebibliography}
