@@ -19,6 +19,8 @@
 \usepackage{doi}
 \usepackage{array}
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
 
 
 
@@ -100,36 +102,9 @@ While not all environmental conditions can be fully isolated, key factors such a
 Controlled environments lend themselves well to modeling systems as instrumentation and control systems are easily integrated and necessary to maintain optimal conditions for plant growth. 
 These measurements can then be parameterized to develop advanced representation models for predictive forecasting and simulation.
 
-% \begin{table}[h]
-%     \centering
-%     \caption{Typical Parameters Controlled in Controlled Environment Agriculture (CEA)}
-%     \label{tab:CEA_parameters}
-%         \begin{tabular}{L{3cm}L{8cm}L{2cm}}
-%             \toprule
-%             \textbf{Parameter} & \textbf{Description}& \textbf{References} \\
-%             \hline
-%             Air temperature & Precise regulation of day/night temperatures to optimize growth, flowering, transpiration. & \\
-%             \hline
-%             CO\textsubscript{2} concentration & Enrichment to enhance photosynthesis and yield; timing and dose controlled via sensors. &  \\
-%             \hline
-%             Relative humidity & Maintained within optimal range to regulate transpiration and reduce pathogen risk. &  \\
-%             \hline
-%             Light intensity / spectrum / duration & LED lighting systems tailored for growth stage: PAR level, spectrum composition, photoperiod control. &  \\
-%             \hline
-%             Airflow / ventilation / air velocity & Fans and vents employed for climate uniformity, gas exchange, leaf temperature control. & \\
-%             \hline
-%             Nutrient solution pH & Acid/base adjustment to ensure optimal uptake in hydroponics and aeroponics. &  \\
-%             \hline
-%             Nutrient EC / concentration & Electrical conductivity monitored to maintain appropriate ion availability for plant uptake. &  \\
-%             \hline
-%             Water temperature & Regulated to maintain oxygen levels and prevent root diseases in DWC systems.         &  \\
-%             \hline
-%             Nutrient solution dissolved oxygen & Aeration control to support root respiration and growth in hydroponic systems.&  \\
-%             \bottomrule
-%         \end{tabular}
-
-%     \end{table}
+%\pagebreak
     
+
 \subsection{Defining Simulated Environments and Plant Growth}
 The phenotypic outcomes of a plant are influenced by high-dimensional interactions between genotype, environment, and management (G$\times$E$\times$M), often resulting in complex non-linear responses \cite{cooper2022predicting,MESSINA2018151,mahmood2022genotype}. 
 Subsequently, the objective of controlled environment systems is to constrain and reduce the influence of the environmental dimension by maintaining known optimal conditions of various crop varieties. 
@@ -160,9 +135,13 @@ For example, plant growth is influenced by numerous interacting factors, includi
 \caption{Overview of two modeling paradigms in plant growth research. The Frequentist approach emphasizes fixed data collection, hypothesis testing, and multivariate inference within an experimental-centric framework. In contrast, the probabilistic approach employs dynamic data integration, iterative updates to prior distributions, and posterior evaluation for decision-making, enabling data-driven adaptability over time.\label{modeling paradigm}}
 \end{figure}
 
+% \pagebreak
+
 Within the context of simulations, computational models aim to predict plant traits, such as biomass accumulation, crop yield, presence of diseases, and overall growth dynamics, during various development stages under varying environmental conditions \cite{bdcc5010002}. Some classical methods have approached this task through a combination of process models that simulate physiological principles and data-driven empirical models, typically obtained through a frequentist framework, to form various subsystems of an overarching hybrid model, offering a detailed understanding of how plants respond to different environmental stimuli at a field scale. Models such as the Crop Environment Resource Synthesis (CERES) \cite{BASSO201627} and the Decision Support System for Agrotechnology Transfer (DSSAT) have been extensively used to forecast plant growth by integrating weather data, soil conditions, and crop management practices \cite{JONES2003235, NGUESSAN2023276}. These models have proven instrumental in evaluating the potential impacts of climate change on crop productivity, guiding decision-making in traditional agriculture. However, these methods often demonstrate the various limitations of a experiment-centric approach.
 
 The first limitation of this classical framework is that the underlying inference models are typically discriminative. The parameters of these models are treated as fixed variables that characterize boundaries used to determine the most probable outcome based on the frequencies of occurrence in sample data. This lack of flexibility in describing data distributions makes these models less effective in representing systems that involve stochastic processes, as with the various biological processes that constitute plant growth. As a result, the deterministic process models derived from these empirical outcomes are often sensitive to initial conditions and are constrained to rigid scopes of inference, making it unsuitable for distant future predictions and the synthesis of realistic data. The second limitation is that the outputs of such models are typically expressed through low-dimensional or scalar quantitative traits, such as yield, biomass, and vegetative index. While this allows for simple comparative analysis and assessments of seasonality of data points, insights toward spatial information and links between input conditions and plant structural developments are lost. The third limitation is that frequentist-based inference models do not intrinsically incorporate mechanisms to update parameters and integrate new information dynamically. This paradigm makes these models less effective for sequence analysis, as they provide no insights on prior information and treat parameters and datasets as static. In contrast, probabilistic approaches, such as those based on Bayesian inference (BI), explicitly quantify uncertainties and dynamically update with new data \cite{mackay2003information}. The static nature of the classical approach to modeling plant growth can lead to the underestimation of uncertainty, as the underlying assumptions about the "true" distribution of data may change, compounded by the cumulative effect of decisions made during earlier stages of inference in sequence analysis \cite{mcelreath2018statistical}. An overview of these dynamics between modeling paradigms are illustrated in Figure \ref{modeling paradigm}.
+
+%\pagebreak
 
 \subsection{Scope of this Review}
 We explore these paradigms and assess the body of works available for various modeling tasks that require spatiotemporal analysis and pattern recognition of plant traits during its growth and development. 
@@ -207,7 +186,7 @@ A repository of recently published datasets on various temporal plant growth dyn
 \subsection{Limitations}
 This review highlight works that have contributed significantly towards advanced techniques in pattern recognition by providing deeper insights into the mathematical frameworks or, in the case of more traditional forecasting methods, are recent and representative of the fundamental principles with some novel insights discussed.
 Due to the exploratory nature of this review of novel and SOTA approaches within this developing field, the availability of works and datasets that cover longitudinal predictive forecasting and simulated growth representations and meet this criterion is limited. 
-We have ommited some works that simply use models already established by other works, and thus the number of works available for a full systemic review is not possible. 
+We have omitted some works that simply use models already established by other works, and thus the number of works available for a full systemic review is not possible. 
 Moreover, this review is constrained to published research and datasets, which may lead to an inherent bias towards studies and datasets that have achieved publication rather than those that may be equally relevant but remain in preprint stages, unpublished, or private.
 
 \begin{sidewaystable}
@@ -272,7 +251,7 @@ The abstraction of various plant biophysical properties into 1D quantitative tra
 
 A common approach to simulate and predict the trajectory of these traits through time is through some form of regression-based inference model. Much of the works covered in this review describe methods for pattern recognition of plant growth that adhere to this framework. Phenotypic traits, denoted as $y$, can be expressed by explicitly fitting one of various forms of regressions (Equations \ref{eqn:polynomial}-\ref{eqn:logit}). We can define the configuration of independent parameters that contribute to the expression of these traits, as $X = \{ x_i \mid i \in \{1,2, \ldots, N\}\}$ for $N$ parameters. For instance, $y$ can represent a phenotypic trait such as plant height or leaf area, and $x_i$ represents the expression level of gene $i$. In order to model these effects continuously through time, $t$, a generic regression model is given by Equation \ref{eqn:regress}. This regression approach provides an empirical basis for fitting discrete observation data and determining the fixed components of models such as regression and spline coefficients, $\beta$ and $\gamma$, respectively. Discrepancies between observed data and modeled outputs can be described as noise through error term, $\epsilon$.
 
-% \pagebreak 
+%\pagebreak 
 
 \begin{align}\label{eqn:regress}
 y(t) = f(t) + \epsilon(t)
@@ -323,6 +302,7 @@ Another pitfall involves the interpretability of the regression parameters. Temp
 
 Furthermore, temporal data often contain complex dependencies due to autocorrelation, seasonal effects, or multi-modal factors. When regression models are employed in a post-hoc framework, these dependencies are frequently under accounted for, leading to temporal confounding. Such confounding poses a significant challenge as it obscures the causative factors underlying observed trends and further limits the model's applicability beyond the studied period \cite{shumway2000time}. Works such as Nesteruk et al. \cite{Sergey9152399} demonstrate the use of autoregressive model improved predictions when compared to other non-correlated regressions.
 
+
 %%%%%% Latent Representation Models %%%%%%
 
 \subsection{Latent Representation Models}
@@ -331,6 +311,10 @@ These representations can be applied as a transformation on sequential inputs to
 
 \subsubsection{Dimensionality Reduction through Principal Component Analysis}
 Methods like those employed by Adak et al. \cite{1jkae092FPCA}, aim to extract key features from time-series data that correspond to a reduced representation of growth rates using principal component analysis (PCA). In this context, PCA is a pattern recognition technique that captures the temporal components of the evolution of traits, such as key moments found within vegetative indices (VI) of plants of differing genotypes. These reduced representations effectively act as growth-rate phenotypes, embodying the entirety of a plant's growth cycle and can be incorporated as an independent variable to improve accuracy of genomic and phenomic prediction models \cite{bimj.202000315}. However, meaningful interpretations of these phenotypes, especially for simulation purposes, are lost as these representations are abstracted into a reduced latent form. Interpretations of these representations back to the time domain for inference requires a decoding process. We explore such a process for decoding a latent representation in Section \ref{rnn}. 
+
+
+\pagebreak
+
 
 \subsubsection{Neural Network-based Models}
 More recently, with advancements in computational systems and optimization algorithms, NNs have been employed in models to perform powerful opaque mappings between inputs and outputs. As such, they have expanded the range of tools available for dimensionality reduction and feature extraction. While some early implementations of simple feed forward DL systems are employed for pattern recognition, they often perform inference on fixed time windows which result in the same pitfalls of regression systems described in Section \ref{pitfalls of regression} \cite{hewamalage2023forecast}. For instance, Matsumura et al. \cite{MATSUMURA2015} employs a multi-layer perceptron (MLP) with inputs of early season parameters in the form of a fixed window to forecast end of season outputs. While this approach can capture relationships within the window, it fails to incorporate longer-term temporal dependencies beyond the window itself. This results in models that are limited in their ability to adapt to changes outside the fixed period, potentially leading to overfitting to short-term patterns and reduced generalizability to future time steps or different seasons.
@@ -347,6 +331,8 @@ The second implantation of these NNs aims to capture and represent temporal rela
 \caption{Directed graph models (folded) of the typical recurrent neural network (RNN) pipeline for sequence prediction and encoding. 
 (a) Shows the sequence prediction task, where inputs $X$ are processed through recurrent connections to generate hidden states $h$, leading to intermediate outputs $O$ and a final output $Y$. This demonstrates how RNNs can predict each subsequent element in the sequence based on prior context.(b) Shows a sequence encoding process, where $X$ is processed into a final encoded latent variable $Z$, capturing the entire sequence’s context in a single vector. $Z$ can be decoded to obtain $Y$.\label{rnn_use}}
 \end{figure}
+
+% \pagebreak
 
 \paragraph{Transformers and Attention Mechanisms}
 It is worth noting the applicability of transformers and attention mechanisms for analyzing sequential data similar to RNNs. However, unlike RNNs, transformers leverage a self-attention mechanism to process entire sequences in parallel, enabling them to capture long-range dependencies effectively as each element directly attends to all others \cite{transformer}. Although few studies have applied these architectures towards temporal plant trait modeling, their ability to weigh the importance of different time steps dynamically demonstrates their potential for analyzing plant growth patterns influenced by both recent and distant environmental factors. This adaptability suggests significant opportunity for advancing plant growth forecasting, particularly for complex, multi-modal time-series data.
@@ -375,6 +361,8 @@ Observation Noise\textsuperscript{\textdagger}  & $\xi_t \approx 0$ & $\xi_t \si
 \end{threeparttable}
 \end{table}
 
+\pagebreak
+
 Within the context of plant growth modeling and phenological pattern recognition, SSMs present an approach that captures the gradual changes in traits by modeling transitions within latent growth states \cite{2021_AugerMethe,9129053}. This approach has the advantage of continuously updating estimates of latent variables based on context driven observations such as environmental factors. For instance, Viaud et al. \cite{viaud2022full} proposes that complex plant growth dynamics, including the variability from noisy environmental conditions can be better represented through a classical SSM framework, when compared to traditional models. More specifically, BI can be applied to estimate the parameters, $\theta$, of a hidden Markov model (HMM), through a particle MCMC method. As such the stochastic elements of plant growth can be captured through a probabilistic latent transition state. In recent works, NNs have been employed as the transition state models to capture complex non-linear relationships between environmental and plant trait development. Shibata et al. \cite{2020_4261965} introduces a deep SSM designed to predict sugar content in greenhouse tomatoes from inputs representing environmental conditions. In this work it is suggested that a semi-surpervised approach can be taken and paired with reinforcement learning for dynamic control tasks in CEA, where optimal decisions must be made in response to changing conditions.
 
 
@@ -395,8 +383,47 @@ This challenge is further exacerbated if mappings are performed through NN-based
 
 Future work may focus on the integration of domain-specific knowledge within these pattern recognition paradigms, especially in cases where meaningful interpretation of processes is important. These knowledge-driven models typically define various plant processes based on biological principles such as photosynthesis, respiration, and growth dynamics through mechanistic models \cite{CASSIA}. Xing-Rong et al. \cite{FAN2015363} explores a combined data-driven and knowledge-based approach to resolve issues of strict calibration constraints, and incomplete representations of complex plant dynamics that result from purely mechanistic models. Much of these hybrid models are early in their conception, utilizing simple data-driven models, such as regressions or simple MLPs, to account for variability of outputs or as direct inputs, as an estimator, to a mechanistic model. Consequently, multiple models are often employed as separate components and consolidated through a two-step process; one step to obtain the data driven term, and the second step for the mechanistic output. This approach has the disadvantage of higher computational cost and potential loss of capturing hierarchical or interdependent effects, especially if training processes are separated. Thus, there are significant potential for further contributions of advanced data-driven techniques to improve methods within a hybrid paradigm \cite{shi2025deep}.
 
-%%%%%% 2D/3D Structured Representations through Time %%%%%%
+\subsection{Comparisons of Temporal Models}
 
+Table~\ref{tab:summaryTemp} provides a comparative summary of the temporal modeling paradigms explored in this section for assessing longitudinal quantitative traits. Each method varies in its data requirements, ability to model uncertainty, interpretability of its parameters, and its typical use cases in plant phenomics. Regression-based models remain the most interpretable and widely applied due to their simplicity and empirical grounding, particularly in structured experimental setups. However, they often lack the flexibility to model complex temporal dependencies and are prone to post-hoc inference limitations.
+
+Latent representation methods, including PCA and NN-based models offer powerful tools for capturing abstract patterns and nonlinear dynamics, but at the cost of interpretability. Probabilistic models such as SSMs provide a middle ground by explicitly modeling noise and latent transitions while allowing for context-aware updates. Hybrid approaches that combine data-driven inference with mechanistic plant models may offer a promising direction for advancing interpretability and generalization across varied environmental and biological conditions.
+
+\begin{table}[h]
+    \centering
+    \begin{threeparttable}
+    \caption{Comparison of Temporal Models for Assessing Longitudinal Quantitative Traits}
+    \label{tab:summaryTemp}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{@{\extracolsep{\fill}}L{0.14\textwidth}L{0.18\textwidth}L{0.21\textwidth}L{0.17\textwidth}Y@{}}
+    \toprule
+    \textbf{Model} & \textbf{Data Requirements} & \textbf{Uncertainty Handling} & \textbf{Interpretability} & \textbf{Application} \\
+    \midrule
+    \textbf{Regression}\textsuperscript{\textdagger}  & Low; structured, independent data & Not modeled during inference, but handled through confidence Intervals & High (coefficients are interpretable) & Growth trend analysis; treatment comparisons \\
+    \addlinespace
+    \textbf{Hierarchical Regression} & Moderate; nested or multi-level data & Explicit modeling via random effects & Moderate to high & Multi-environment trials; genotype $\times$ environment modeling \\
+    \addlinespace
+    \textbf{Feedforward NN (MLP)}\textsuperscript{\textdagger}  & High; labeled training data & Not explicitly handled & Low; black-box weights & Trait prediction; nonlinear phenotype modeling \\
+    \addlinespace
+    \textbf{Sequence RNN} & High; time-ordered sequential data & Implicit via temporal encoding & Low; hidden states are abstract & Dynamic trait prediction; sequential pattern learning \\
+    \addlinespace
+    \textbf{Encoder RNN} & High; time-series data & Stochastic encoding model uncertainty & Low; latent space hard to interpret & Latent growth pattern discovery; generative modeling \\
+    \addlinespace
+    \textbf{PCA}\textsuperscript{\textdagger} & Moderate; continuous multivariate data & Not explicitly handled & Low; PCs are linear combinations without direct meaning & Dimensionality reduction; exploratory trait analysis \\
+    \addlinespace
+    \textbf{State-Space Model (SSM)} & Moderate; time-series with latent dynamics & Explicit modeling of process and observation noise & Moderate; states interpretable if well-defined & Latent process modeling; sensor fusion; phenotype control \\
+    \bottomrule
+    \end{tabularx}
+    \begin{tablenotes}
+        \item[\textdagger] \small{Not probabilistic by default, but uncertainty can be modeled using Bayesian or variational extensions.}
+        \end{tablenotes}
+    \end{threeparttable}
+\end{table}
+
+
+
+
+%%%%%% 2D/3D Structured Representations through Time %%%%%%
 
 \section{2D/3D Structured Representations through Time}
 \label{sec:structured}
@@ -497,6 +524,53 @@ In these works, predictions are guided by a conditional vector comprised of trea
 
 Debbagh et al. \cite{Debbagh2024SIPGS} proposes a sequence-informed approach which introduces dynamic and compounding environmental conditions as feedback to a CGM, guiding a continuous simulation process. In this work, the conditional vector, $x$, which guides the image generation of the CGM, is directed by a configuration of random variables, $c$, that describe dynamic factors that contribute to the development of the plants within the scene (i.e. environmental parameters). $x$ is determined by encoding a sequence of these environmental parameters from the start of the simulation up to the point of inference, $c(\tau)$, where $\tau = [0,t]$. The encoding process consists of an RNN encoder, which allows the model to learn the compounding and sequential relationships between environmental conditions as a vector representation. The dependencies between each model component is illustrated by the directed graph model shown in Figure \ref{fig:sipgs}. This approach provides a framework that further regularizes the image generation task through dynamic context, allowing for the realistic synthesis of consecutive frames.
 
+\subsection{Comparisons of Structured Output Representations Through Time}
+
+Table~\ref{tab:structured_models} provides a comparative summary of the structured modeling paradigms discussed in this section for simulating plant morphologies through time. Each method represents a trade-off between data needs, realism, and interpretability.
+
+Mechanistic FSPMs such as differential growth simulations based on FEM rely on high-resolution imaging and cell-level observations to reconstruct localized growth processes. These models are highly interpretable, driven by physical and biological insights, but are typically deterministic and do not formally account for uncertainty. 
+L-systems offer interpretable and symbolic modeling of branching structures using production rules. While L-systems are not probabilistic by default, stochastic extensions and agent-based variants allow for the incorporation of environmental interaction and feedback, enabling more dynamic simulations.
+
+CV-based approaches introduce data-driven alternatives for visualizing plant growth. CRNNs are used to capture sequential spatial features from image sequences but suffer from low interpretability and deterministic output mappings, while CGMs, including the sequence-informed CVAE and cGANs, address these challenges by introducing latent variable modeling and sampling to represent uncertainty and generate more biologically plausible outputs.
+
+\begin{table}[h]
+    \centering
+    \begin{threeparttable}
+    \caption{Comparison of Structured Models for Simulating Plant Morphologies Through Time}
+    \label{tab:structured_models}
+    \scriptsize
+    \begin{tabularx}{\textwidth}{@{\extracolsep{\fill}}L{0.14\textwidth}L{0.18\textwidth}L{0.21\textwidth}L{0.17\textwidth}Y@{}}
+    \toprule
+    \textbf{Model} & \textbf{Data Requirements} & \textbf{Uncertainty Handling} & \textbf{Interpretability} & \textbf{Application} \\
+    \midrule
+    % \textbf{FSPM (Mechanistic)} & Moderate; physiological and environmental parameters & Deterministic; no formal uncertainty modeling & High; process-based and interpretable & Resource allocation, physiological responses, whole-plant simulation \\
+    
+    % \addlinespace
+    \textbf{Differential Growth (FEM)} & High; cell-level growth data, imaging-based flow analysis & Implicit in parameter variability; deterministic model & High; spatial and physical dynamics interpretable & Leaf morphogenesis, biomechanical growth simulations \\
+    
+    \addlinespace
+    \textbf{L-System}\textsuperscript{\textdagger} & Low to moderate; rule sets and symbolic encodings & Not explicitly handled & High; rules directly map to morphology & Branching patterns, 2D/3D growth simulations, generative modeling \\
+    
+    \addlinespace
+    \textbf{Agent-based L-System} & High; interaction data with agents/environment & Stochasticity and feedback via agent logic; tunable & Moderate to high; emergent from explicit interactions & Context-aware growth modeling; reinforcement learning driven growth \\
+    
+    \addlinespace
+    \textbf{CRNN (Next Frame Prediction)} & High; sequential image data of plant growth & Implicit via temporal encoding & Low to moderate; convolution and hidden state opacity & Visual trait prediction; spatiotemporal structure forecasting \\
+    
+    \addlinespace
+    \textbf{Conditional Generative Models (CVAE, cGAN)} & High; image pairs with metadata or environmental labels & Explicit; latent distribution sampling (KL divergence, adversarial) & Moderate; constrained latent space enables partial interpretation & Visual scene generation; growth under static treatment conditions \\
+    
+    % \addlinespace
+    % \textbf{Sequence-Informed Conditional Generative Models} & Very high; sequential environmental conditions and image frames & Explicit; feedback-aware latent modeling and sampling & Moderate; latent dynamics linked to environmental context & Continuous forecasting; closed-loop simulation under dynamic conditions \\
+    \bottomrule
+    \end{tabularx}
+    \begin{tablenotes}
+        \item[\textdagger] \small{Not probabilistic by default, but uncertainty can be modeled using Bayesian or variational extensions.}
+        \end{tablenotes}
+    \end{threeparttable}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%% Perspectives
 
 \section{Perspectives}
 \label{sec:perspectives}
@@ -513,7 +587,6 @@ Future research in this domain should prioritize the development of hybrid appro
 Two key directions are proposed to achieve this goal. The first involves designing model architectures that incorporate knowledge-informed mechanisms, enabling the integration of biological principles and domain expertise into data-driven frameworks. 
 This is demonstrated by works that aim to integrate deep learning frameworks into large scale crop models such as CERES and DSSAT \cite{shi2025deep}. The second focuses on advancing methods for decoding and interpreting opaque models, ensuring that complex representation models provide outputs that align with biological processes and facilitate deeper understanding \cite{mostafa2023explainable}.
 
-\pagebreak
 
 \subsection{Dataset Gap}
 
