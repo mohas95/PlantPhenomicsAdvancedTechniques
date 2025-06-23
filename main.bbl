@@ -1,4 +1,4 @@
-\begin{thebibliography}{153}
+\begin{thebibliography}{156}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -484,6 +484,24 @@ R~L Baker, W~F Leong, S~Welch, and C~Weinig.
 Diana~Marcela Perez-Valencia, Maria~Xose Rodriguez-Alvarez, Martin~P Boer, and Fred~A van Eeuwijk.
 \newblock A one-stage approach for the spatio-temporal analysis of high-throughput phenotyping data.
 \newblock \emph{Journal of Agricultural, Biological and Environmental Statistics}, pages 1--23, 2024.
+
+\bibitem[Teressa et~al.(2021)Teressa, Semahegn, and Bejiga]{teressa2021multi}
+Temesgen Teressa, Zigale Semahegn, and Tamirat Bejiga.
+\newblock Multi environments and genetic-environmental interaction (gxe) in plant breeding and its challenges: a review article.
+\newblock \emph{International Journal of Research Studies in Agricultural Sciences}, 7\penalty0 (4):\penalty0 11--18, 2021.
+\newblock \doi{10.20431/2454-6224.0704002}.
+
+\bibitem[Hawinkel et~al.(2022)Hawinkel, De~Meyer, and Maere]{hawinkel2022spatial}
+Stijn Hawinkel, Sam De~Meyer, and Steven Maere.
+\newblock Spatial regression models for field trials: a comparative study and new ideas.
+\newblock \emph{Frontiers in plant science}, 13:\penalty0 858711, 2022.
+\newblock \doi{10.3389/fpls.2022.858711}.
+
+\bibitem[Dormann et~al.(2013)Dormann, Elith, Bacher, Buchmann, Carl, Carr{\'e}, Marqu{\'e}z, Gruber, Lafourcade, Leit{\~a}o, et~al.]{dormann2013collinearity}
+Carsten~F Dormann, Jane Elith, Sven Bacher, Carsten Buchmann, Gudrun Carl, Gabriel Carr{\'e}, Jaime R~Garc{\'\i}a Marqu{\'e}z, Bernd Gruber, Bruno Lafourcade, Pedro~J Leit{\~a}o, et~al.
+\newblock Collinearity: a review of methods to deal with it and a simulation study evaluating their performance.
+\newblock \emph{Ecography}, 36\penalty0 (1):\penalty0 27--46, 2013.
+\newblock \doi{10.1111/j.1600-0587.2012.07348.x}.
 
 \bibitem[Babyak(2004)]{babyak2004you}
 Michael~A Babyak.

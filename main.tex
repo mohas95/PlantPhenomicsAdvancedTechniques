@@ -127,7 +127,7 @@ Frequentist methods, including various forms of regression modeling, provide rob
 However, this experiment-centric approach is often limited when applied toward plant observation tasks that involve complex data structures, as with analyzing sequential and spatiotemporal images collected within the domain of high-throughput plant phenotyping (HTPP). 
 Moreover, plant growth modeling and forecasting is an ill-posed problem where the trajectory of a plant's development does not have a unique solution. 
 Dynamic growing conditions and stochastic elements within plant development are prevalent due to the inherent variability and uncertainty that exists in biological systems. 
-For example, plant growth is influenced by numerous interacting factors, including G$\times$E$\times$M variables, which can lead to highly complex and non-linear relationships. Thus methods for regularization of the problem should be explored.
+For example, plant growth is influenced by numerous interacting factors, including G$\times$E$\times$M variables. Thus, methods for regularization of the problem should be explored.
 
 \begin{figure}[t]
 \centering
@@ -141,7 +141,6 @@ Within the context of simulations, computational models aim to predict plant tra
 
 The first limitation of this classical framework is that the underlying inference models are typically discriminative. The parameters of these models are treated as fixed variables that characterize boundaries used to determine the most probable outcome based on the frequencies of occurrence in sample data. This lack of flexibility in describing data distributions makes these models less effective in representing systems that involve stochastic processes, as with the various biological processes that constitute plant growth. As a result, the deterministic process models derived from these empirical outcomes are often sensitive to initial conditions and are constrained to rigid scopes of inference, making it unsuitable for distant future predictions and the synthesis of realistic data. The second limitation is that the outputs of such models are typically expressed through low-dimensional or scalar quantitative traits, such as yield, biomass, and vegetative index. While this allows for simple comparative analysis and assessments of seasonality of data points, insights toward spatial information and links between input conditions and plant structural developments are lost. The third limitation is that frequentist-based inference models do not intrinsically incorporate mechanisms to update parameters and integrate new information dynamically. This paradigm makes these models less effective for sequence analysis, as they provide no insights on prior information and treat parameters and datasets as static. In contrast, probabilistic approaches, such as those based on Bayesian inference (BI), explicitly quantify uncertainties and dynamically update with new data \cite{mackay2003information}. The static nature of the classical approach to modeling plant growth can lead to the underestimation of uncertainty, as the underlying assumptions about the "true" distribution of data may change, compounded by the cumulative effect of decisions made during earlier stages of inference in sequence analysis \cite{mcelreath2018statistical}. An overview of these dynamics between modeling paradigms are illustrated in Figure \ref{modeling paradigm}.
 
-%\pagebreak
 
 \subsection{Scope of this Review}
 We explore these paradigms and assess the body of works available for various modeling tasks that require spatiotemporal analysis and pattern recognition of plant traits during its growth and development. 
@@ -264,10 +263,11 @@ y(t) = f(t) + \epsilon(t)
     &f(t) = \frac{1}{1 + e^{-(\beta_0 + \beta_1t)}} && \text{(Logistic)}
 \end{align}
 
-The most common of these include non-linear regressions models that capture the typical patterns seen within plant growth traits. Following the conventions of a frequentest approach, sources of variation amongst growth patterns are hypothesized and made explicit before the collection of data. Non-experimental parameters, such as environmental and spatial variations, are standardized or corrected. Two works, Perez et al. \cite{Perez-Valencia2022} and Kar et al.\cite{SpaTemHTP}, have proposed the implementation of spatial analysis of trials with splines (SPATS) for correcting spatial variations amongst experimental groups as a data pre-processing step before performing temporal modeling. The fixed but unknown statistics that describe the data are obtained empirically to fit the regression function for longitudinal trait predictions. The most prevalent implementations for modeling non-linear time-series patterns of scalar growth traits are spline-based forms, with common application of the model demonstrated in works such as Momen et al. \cite{Mehdi10.1534/g3.119.400346} and Pauli et al. \cite{Duke10.1534/g3.115.023515}. Polynomial forms, demonstrated in works such as Baba et al. \cite{Toshimi10.1371/journal.pone.0228118} and Morales et al. \cite{Morales10.1093/genetics/iyae037}, account for the majority of regressions used for longitudinal trait prediction.
+The most common of these include non-linear regressions models that capture the typical patterns seen within plant growth traits. Following the conventions of a frequentist approach, sources of variation amongst growth patterns are hypothesized and made explicit before the collection of data. Non-experimental parameters, such as environmental and spatial variations, are standardized or corrected. Two works, Perez et al. \cite{Perez-Valencia2022} and Kar et al.\cite{SpaTemHTP}, have proposed the implementation of spatial analysis of trials with splines (SPATS) for correcting spatial variations amongst experimental groups as a data pre-processing step before performing temporal modeling. The fixed but unknown statistics that describe the data are obtained empirically to fit the regression function for longitudinal trait predictions. The most prevalent implementations for modeling non-linear time-series patterns of scalar growth traits are spline-based forms, with common application of the model demonstrated in works such as Momen et al. \cite{Mehdi10.1534/g3.119.400346} and Pauli et al. \cite{Duke10.1534/g3.115.023515}. Polynomial forms, demonstrated in works such as Baba et al. \cite{Toshimi10.1371/journal.pone.0228118} and Morales et al. \cite{Morales10.1093/genetics/iyae037}, account for the majority of regressions used for longitudinal trait prediction.
+
 
 \subsubsection{Separating Effects using Hierarchical Models}
-To further disentangle the individual and compounding effects of various factors on plant growth trajectories, a hierarchical regression structure can be employed to represent plant traits for different levels of variation. This can be particularly useful for complex systems representing plant growth that is determined by multiple cumulative factors. For instance, plant traits such as height or leaf area can be modeled as responses to a combination of fixed and random effects. Fixed effects capture the consistent factors, such as the overall population-wide trends in growth, while random effects model the variation at each hierarchical level including genotype-specific effects and individual plant-specific variations. The random effects can vary across time, capturing the longitudinal nature of plant growth, while still maintaining a structure that allows for partial pooling of information across the hierarchy.
+To disentangle the individual and compounding effects of various factors on plant growth trajectories, a hierarchical regression structure can be employed to represent plant traits for different levels of variation. This can be particularly useful for complex systems representing plant growth that is determined by multiple cumulative factors. For instance, plant traits such as height or leaf area can be modeled as responses to a combination of fixed and random effects. Fixed effects capture the consistent factors, such as the overall population-wide trends in growth, while random effects model the variation at each hierarchical level including genotype-specific effects and individual plant-specific variations. The random effects can vary across time, capturing the longitudinal nature of plant growth, while still maintaining a structure that allows for partial pooling of information across the hierarchy.
 
 One such application of this is demonstrated by Equation \ref{eqn:hierarichal} and shown in Figure \ref{hierarchical_reg}. A hierarchical logistic regression is employed to represent plant growth at the population level, genotype level, and individual plant level. A generic form logistic transformation (Equation \ref{eqn:logit}) can be applied towards the compounding fixed population effects, $f_p$, the random effects at the genotype level, $f_{pg}(t)$, and the random effects of each individual plants, $f_{pgi}(t)$, to describe the development of plant traits over time, $y(t)$. In this example $\beta$, $L$, and $t_0$ in Equations \ref{eqn:fixedpop}-\ref{eqn:randindv} are model parameters to be determined in order to fit our regressions to corresponding categorized data. 
 
@@ -289,6 +289,19 @@ One such application of this is demonstrated by Equation \ref{eqn:hierarichal} a
 
 When modeling plant traits over time, fixed effects are commonly defined by a logistic regression to capture typical growth curve patterns and to distinguish temporal trends between categorical groups, such as genotypes. A typical implementation of such models is demonstrated in works such as Baker et al. \cite {Baker2018Baysian}, in which the effects of genotypes are separated using Bayesian routines to estimate logistic parameters. Certain instances may require the disentanglement of complex effects between groups. In such cases, the mapping of these relationships require that regression models capture higher degrees of non-linearity. In Perez et al. \cite{perez2024one}, a P-spline-based hierarchical structure (Equation \ref{eqn:spline}) is employed to model the effects not just at the population and genotype level but also the effects between individual plants, experimental groups and spatio-temporal variations. This approach allows for the simultaneous representation of growth curves at various levels of variability and the incorporation of shared parameters amongst each group effects on plant growth. 
 
+\subsubsection{How Controlled Environments Affect Fixed Variables in Regression}
+Temporal regression models for assessing longitudinal quantitative traits are typically developed under open-field conditions, which results in higher variability in observed outcomes and limit predictions made under dynamic conditions. 
+One might want to separate these environmental effects as fixed variables to limit this variability for better performance on inference. 
+While, controlled environment systems can regularize these conditions, the strict control of these factors can also introduce certain modeling constraints and affect how fixed effects are interpreted in temporal regression models.
+Specifically, the fixed variables in a regression model may become conflated with the uniform environmental conditions of the controlled environment. 
+For example, plant height trajectories measured under identical light and nutrient regimes may exhibit reduced variability, 
+masking G$\times$E interactions that would otherwise emerge in field conditions \cite{teressa2021multi}. 
+As a result, the fitted regression parameters may overrepresent the influence of genotype or treatment effects, while underestimating environmental contributions.
+
+Moreover, fixed effect parameters often capture the average trait progression under a narrow set of environmental conditions. 
+This introduces a risk of overfitting to the specific experimental regime and limits the generalizability of the model to more variable or open-field conditions \cite{hawinkel2022spatial}. 
+The deterministic nature of environmental control may also induce collinearity amongst time-dependent variables, making it difficult to separate the temporal effect of a fixed factor from its environmental context \cite{dormann2013collinearity}.
+
 \subsubsection{Pitfalls of Regression-based Temporal Inference}
 \label{pitfalls of regression}
 Modeling plant growth through regressions provides meaningful interpretations of trends on labeled data points. 
@@ -306,14 +319,14 @@ Furthermore, temporal data often contain complex dependencies due to autocorrela
 %%%%%% Latent Representation Models %%%%%%
 
 \subsection{Latent Representation Models}
-Quantitative traits can be assessed through time by representing their complex temporal dependencies through some reduced latent representations\footnote{Latent representations refer to reduced-dimensional, abstract encodings of quantitative trait data that capture temporal dynamics (time dimension) and underlying structure.}, or hidden state. 
+Quantitative traits can also be assessed through time by representing their complex temporal dependencies through some reduced latent representations\footnote{Latent representations refer to reduced-dimensional, abstract encodings of quantitative trait data that capture temporal dynamics (time dimension) and underlying structure.}, or hidden state. 
 These representations can be applied as a transformation on sequential inputs to derive predictive outputs. In this section we explore various methods for extracting latent representation from the temporal dependencies between scalar quantitative traits and the models used to perform sequence-based inference from these hidden states.
 
 \subsubsection{Dimensionality Reduction through Principal Component Analysis}
 Methods like those employed by Adak et al. \cite{1jkae092FPCA}, aim to extract key features from time-series data that correspond to a reduced representation of growth rates using principal component analysis (PCA). In this context, PCA is a pattern recognition technique that captures the temporal components of the evolution of traits, such as key moments found within vegetative indices (VI) of plants of differing genotypes. These reduced representations effectively act as growth-rate phenotypes, embodying the entirety of a plant's growth cycle and can be incorporated as an independent variable to improve accuracy of genomic and phenomic prediction models \cite{bimj.202000315}. However, meaningful interpretations of these phenotypes, especially for simulation purposes, are lost as these representations are abstracted into a reduced latent form. Interpretations of these representations back to the time domain for inference requires a decoding process. We explore such a process for decoding a latent representation in Section \ref{rnn}. 
 
 
-\pagebreak
+%\pagebreak
 
 
 \subsubsection{Neural Network-based Models}
@@ -361,7 +374,7 @@ Observation Noise\textsuperscript{\textdagger}  & $\xi_t \approx 0$ & $\xi_t \si
 \end{threeparttable}
 \end{table}
 
-\pagebreak
+% \pagebreak
 
 Within the context of plant growth modeling and phenological pattern recognition, SSMs present an approach that captures the gradual changes in traits by modeling transitions within latent growth states \cite{2021_AugerMethe,9129053}. This approach has the advantage of continuously updating estimates of latent variables based on context driven observations such as environmental factors. For instance, Viaud et al. \cite{viaud2022full} proposes that complex plant growth dynamics, including the variability from noisy environmental conditions can be better represented through a classical SSM framework, when compared to traditional models. More specifically, BI can be applied to estimate the parameters, $\theta$, of a hidden Markov model (HMM), through a particle MCMC method. As such the stochastic elements of plant growth can be captured through a probabilistic latent transition state. In recent works, NNs have been employed as the transition state models to capture complex non-linear relationships between environmental and plant trait development. Shibata et al. \cite{2020_4261965} introduces a deep SSM designed to predict sugar content in greenhouse tomatoes from inputs representing environmental conditions. In this work it is suggested that a semi-surpervised approach can be taken and paired with reinforcement learning for dynamic control tasks in CEA, where optimal decisions must be made in response to changing conditions.
 
@@ -421,7 +434,7 @@ Latent representation methods, including PCA and NN-based models offer powerful 
 \end{table}
 
 
-
+\pagebreak
 
 %%%%%% 2D/3D Structured Representations through Time %%%%%%
 
@@ -429,7 +442,7 @@ Latent representation methods, including PCA and NN-based models offer powerful 
 \label{sec:structured}
 From low-dimensional scalar traits, we move toward representing the structural elements of plant growth through higher order data structures, such as 2D images and 3D point clouds. This is particularly useful for describing the development of plant structures through time, providing a graphical representation and visual insights to plant dynamics that are normally abstracted away with vectorized quantitative traits. The spatiotemporal simulation of these attributes offers a holistic assessment of strategies exhibited by the various plant behaviors based on contextual stimuli or signals. In this section, we take the foundation of pattern recognition techniques explored in Section \ref{sec:modeling_paradigm} and apply them toward tasks that represent plant morphologies as structured outputs. This typically involves the addition of some rendering process which defines our plant representation model and is driven by a contextual process (Figure \ref{fig:Structured_render}). As such, we explore the various works on the 2D or 3D structured plant representations, as well as works that attempt to model the entire context driven spatiotemporal pipeline for simulating plant growth.
 
-\begin{figure}[t]
+\begin{figure}[h]
 \centering
 \includegraphics[width=.7\textwidth]{5_Structured_output.pdf}
 \caption{High-level conceptual overview of a context driven simulation framework for structured output representation through time.\label{fig:Structured_render}}
@@ -446,10 +459,10 @@ More often, this approach for plant structural modeling is applied toward develo
 \subsubsection{Rule-based Lindenmayer systems}
 
 Another common implementation of FSPMs involves the application of a rule-based modeling paradigm known as the Lindenmayer systems (L-systems). L-systems define a formal set of recursive rules that specify the configuration of plant structures based on a string of symbolic characters. These rules guide the growth and branching patterns of simulated plants through iterative processes that aim to generalize and represent the realistic biological development and propagation of plant structures \cite{LINDENMAYER1968280,prusinkiewicz2012algorithmic,Prusinkiewicz2018}. By repeatedly applying these recursive rules, L-systems can simulate natural variations and intricate details found in plant morphology, making them a powerful tool in computational botany and generative modeling. 
-
 A basic example is given by Algorithm \ref{algo:lsystem}, which establishes a generalized execution of a simple L-system, where Figure \ref{fig:branch_lsystem_render} shows the visual rendering of a rule set commonly used for describing a simple branching pattern in 2D.
 
 \begin{algorithm}[H]
+\scriptsize
 \caption{Generate L-System String}\label{algo:lsystem}
 \begin{algorithmic}[1]
 \Require Axiom (initial string) $S$, number of iterations $N$, set of production rules $P$
@@ -476,6 +489,8 @@ A basic example is given by Algorithm \ref{algo:lsystem}, which establishes a ge
 \includegraphics[width=\textwidth]{6_lsystems.pdf}
 \caption{Demonstration of plant-like structures generated using L-Systems with varying parameters. The axiom $S = \texttt{"F"}$ and production rule $P$ are iterated $N$ times with specified angles. Examples show branching patterns for $N = 2, 3, 4$ and angles $15^\circ, 30^\circ, 40^\circ$, demonstrating the influence of parameterized rules on the rendering process. The symbols represent drawing actions.\label{fig:branch_lsystem_render}}
 \end{figure}
+
+\pagebreak
 
 This algorithm can be expanded to include parameterized production rules that encapsulate complex relationships at each iteration of the simulated plant branching. For example, various works have developed production rules that dictate tree organ formation based on a source-sink dynamic between existing plant organs at previous iterations, which is then subsequently rendered for the 3D simulation of various tree cultivars \cite{LPeaches2005,dejong2015almond}. More recent work has expanded on production rules using sink-source dynamics by incorporating context-driven systems such as environmental and management conditions, soil nutrient availability, and distribution to improve the dynamic tree simulation process \cite{LPeaches2022,9231935,YANG2024122}. 
 
@@ -530,6 +545,8 @@ Table~\ref{tab:structured_models} provides a comparative summary of the structur
 
 Mechanistic FSPMs such as differential growth simulations based on FEM rely on high-resolution imaging and cell-level observations to reconstruct localized growth processes. These models are highly interpretable, driven by physical and biological insights, but are typically deterministic and do not formally account for uncertainty. 
 L-systems offer interpretable and symbolic modeling of branching structures using production rules. While L-systems are not probabilistic by default, stochastic extensions and agent-based variants allow for the incorporation of environmental interaction and feedback, enabling more dynamic simulations.
+
+% \pagebreak
 
 CV-based approaches introduce data-driven alternatives for visualizing plant growth. CRNNs are used to capture sequential spatial features from image sequences but suffer from low interpretability and deterministic output mappings, while CGMs, including the sequence-informed CVAE and cGANs, address these challenges by introducing latent variable modeling and sampling to represent uncertainty and generate more biologically plausible outputs.
 
