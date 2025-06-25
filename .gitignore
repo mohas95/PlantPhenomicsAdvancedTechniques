@@ -6,3 +6,12 @@ main.synctex.gz
 main.aux
 comments.pdf
 comments.docx
+
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*synctex.gz
+main.pdf
+doc/*
