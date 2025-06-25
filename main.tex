@@ -306,10 +306,10 @@ The deterministic nature of environmental control may also induce collinearity a
 \label{pitfalls of regression}
 Modeling plant growth through regressions provides meaningful interpretations of trends on labeled data points. 
 However, temporal inferences made from these models suffer from the pitfalls of a post-hoc analysis. 
-Following the typical experiment-centric modeling pipeline (Figure. \ref{modeling paradigm}), inference models are selected after data has been collected and are typically implemented to explain trends once experimental groups are found to be statistically significant. 
+Following the typical experiment-centric modeling pipeline (Figure \ref{modeling paradigm}), inference models are selected after data has been collected and are typically implemented to explain trends once experimental groups are found to be statistically significant. 
 As such, various regression forms and their hyper-parameters are selected once this data is revealed in order to achieve best fit. 
 This post-hoc selection provides an inherent risk of overfitting due to the lack of a priori model constraints, leading to interpretations that may capture transient or idiosyncratic patterns rather than robust, underlying temporal trends \cite{babyak2004you,prakash2023temporal}. 
-As a result, post-hoc regression models lack the generalizability necessary to predict future data accurately, particularly in time-series with complex dependencies or irregular periodicity\cite{hong2018overfitting,fithian2014optimal}.
+As a result, post-hoc regression models lack the generalizability necessary to predict future data accurately, particularly in time-series with complex dependencies or irregular periodicity \cite{hong2018overfitting,fithian2014optimal}.
 
 Another pitfall involves the interpretability of the regression parameters. Temporal inferences often rely on the assumption that parameters estimated from the data capture the true characteristics of the underlying temporal process. However, in the absence of predefined model assumptions, these parameters can be sensitive to random variations or transient anomalies in the dataset. This sensitivity can result in misleading estimates of trend strength, direction, or duration, especially in nonlinear regression models, which are more prone to parameter instability when applied post hoc \cite{gutenkunst2007universally}. Consequently, regression-based temporal models may yield unreliable estimates that lack external validity, thereby compromising the inference drawn from these analyses.
 
@@ -400,7 +400,7 @@ Future work may focus on the integration of domain-specific knowledge within the
 
 Table~\ref{tab:summaryTemp} provides a comparative summary of the temporal modeling paradigms explored in this section for assessing longitudinal quantitative traits. Each method varies in its data requirements, ability to model uncertainty, interpretability of its parameters, and its typical use cases in plant phenomics. Regression-based models remain the most interpretable and widely applied due to their simplicity and empirical grounding, particularly in structured experimental setups. However, they often lack the flexibility to model complex temporal dependencies and are prone to post-hoc inference limitations.
 
-Latent representation methods, including PCA and NN-based models offer powerful tools for capturing abstract patterns and nonlinear dynamics, but at the cost of interpretability. Probabilistic models such as SSMs provide a middle ground by explicitly modeling noise and latent transitions while allowing for context-aware updates. Hybrid approaches that combine data-driven inference with mechanistic plant models may offer a promising direction for advancing interpretability and generalization across varied environmental and biological conditions.
+Latent representation methods, including PCA and NN-based models, offer powerful tools for capturing abstract patterns and nonlinear dynamics, but at the cost of interpretability. Probabilistic models such as SSMs provide a middle ground by explicitly modeling noise and latent transitions while allowing for context-aware updates. Hybrid approaches that combine data-driven inference with mechanistic plant models may offer a promising direction for advancing interpretability and generalization across varied environmental and biological conditions.
 
 \begin{table}[h]
     \centering
@@ -412,7 +412,7 @@ Latent representation methods, including PCA and NN-based models offer powerful 
     \toprule
     \textbf{Model} & \textbf{Data Requirements} & \textbf{Uncertainty Handling} & \textbf{Interpretability} & \textbf{Application} \\
     \midrule
-    \textbf{Regression}\textsuperscript{\textdagger}  & Low; structured, independent data & Not modeled during inference, but handled through confidence Intervals & High (coefficients are interpretable) & Growth trend analysis; treatment comparisons \\
+    \textbf{Regression}\textsuperscript{\textdagger}  & Low; structured, independent data & Not modeled during inference, but handled through confidence intervals & High (coefficients are interpretable) & Growth trend analysis; treatment comparisons \\
     \addlinespace
     \textbf{Hierarchical Regression} & Moderate; nested or multi-level data & Explicit modeling via random effects & Moderate to high & Multi-environment trials; genotype $\times$ environment modeling \\
     \addlinespace
@@ -498,7 +498,7 @@ Furthermore, works such as Hitti et al. \cite{HITTI2024108613} and Mu{\ss}mann e
 
 \subsection{Computer Vision Approach to Plant Modeling}
 \label{sec:CV}
-FSPMs typically rely on procedural methods for the visual rendering process of the plant simulation pipeline (Figure. \ref{fig:Structured_render}). Although the outcomes of such models are interpretable and result in visually consistent structures, the outputs of such methods are often derived from deterministic solutions that lack stochastic variability. Such solutions tend to drift from biological realism, particularly when simulating complex interactions or environmental responses, requiring the integration of experiment data to drive realistic outputs \cite{10.1093/jxb/erp345}. Alternatively, some initial efforts have been made towards a novel approach using data-driven CV for rendering the structural elements of the simulation task. 
+FSPMs typically rely on procedural methods for the visual rendering process of the plant simulation pipeline (Figure \ref{fig:Structured_render}). Although the outcomes of such models are interpretable and result in visually consistent structures, the outputs of such methods are often derived from deterministic solutions that lack stochastic variability. Such solutions tend to drift from biological realism, particularly when simulating complex interactions or environmental responses, requiring the integration of experiment data to drive realistic outputs \cite{10.1093/jxb/erp345}. Alternatively, some initial efforts have been made towards a novel approach using data-driven CV for rendering the structural elements of the simulation task. 
 
 For instance, the task of plant growth modeling can be structured to fall within one of two classic problems found within the domain of predictive CV and video analysis; frame-to-frame translation and frame synthesis. Within this perspective, the structural elements of plant growth can be represented as images of a temporal scene, or frames, where the goal of our methods is to predict the pixel-wise configuration of these frames, such that the corresponding scene describes the realistic spatiotemporal development of plant growth. These methods do not rely on procedural rendering routines using pre-rendered graphics. Rather, the visual rendering process becomes a CV-based image translation task driven by empirical methods for predicting frames through features learned from high dimensional 2D or 3D HTPP data. We explore some early works which utilize such methods for predictive pattern recognition.
 
@@ -593,7 +593,7 @@ CV-based approaches introduce data-driven alternatives for visualizing plant gro
 \label{sec:perspectives}
 \subsection{Data-Driven vs Experiment-Driven Approaches}
 Plant growth modeling has traditionally relied on experiment-driven approaches, where predefined hypotheses are tested using carefully controlled experiments. 
-These methods provide valuable insights into specific biological processes but are often time-consuming, resource-intensive, and limited in scalability\cite{akhavizadegan2021time,suliansyah2023literature,kephe2021challenges}. 
+These methods provide valuable insights into specific biological processes but are often time-consuming, resource-intensive, and limited in scalability \cite{akhavizadegan2021time,suliansyah2023literature,kephe2021challenges}. 
 By contrast, data-driven and model-centric approaches leverage large datasets and machine learning techniques to capture patterns and relationships that might not be immediately apparent within an experiment-driven framework \cite{roscher2023datacentricdigitalagricultureperspective}. The works presented in this review demonstrate a shift towards the latter, as challenges with dynamic updating and long-term predictions are prevalent in simple regression methods as described in Section \ref{pitfalls of regression}. 
 
 The shift towards 2D image and 3D point cloud data for describing plant phenemena, as with HTPP datasets, requires model frameworks designed for interpreting and processing higher order data-structures \cite{harandi2023make,tpj.17053}. 
@@ -633,7 +633,7 @@ Models such as multi-variate transformers have been employed to improve the prec
 
 \subsubsection{Plant-Environment Simulation}
 Simulation frameworks informed by generative and probabilistic models improve the ability to predict plant growth under varying environmental conditions. 
-Models like the CGMs presented in Section \ref{generative process} enable the synthesis of realistic growth trajectories influenced by the spatial and dynamic growing condition, including the distribution of light, nutrient conditions, temperature, and CO\textsubscript{2}\cite{Debbagh2024SIPGS,DREES2021106415}. 
+Models like the CGMs presented in Section \ref{generative process} enable the synthesis of realistic growth trajectories influenced by the spatial and dynamic growing condition, including the distribution of light, nutrient conditions, temperature, and CO\textsubscript{2} \cite{Debbagh2024SIPGS,DREES2021106415}. 
 This provides \textit{in silico} methods to inform the structural development process of a controlled plant system and to develop strategies prior to conducting in-field operations. These frameworks allow for resource optimization in controlled environments and improve the forecasting of long-term plant responses to changing environments.
 
 \subsubsection{Digital Twinning and Representation}

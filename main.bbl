@@ -37,7 +37,6 @@ Robert~J Henry.
 \newblock \emph{Current Opinion in Plant Biology}, 56:\penalty0 168--173, 2020.
 \newblock ISSN 1369-5266.
 \newblock \doi{10.1016/j.pbi.2019.11.004}.
-\newblock Biotic interactions AGRI 2019.
 
 \bibitem[Langstroff et~al.(2022)Langstroff, Heuermann, Stahl, and Junker]{langstroff2022opportunities}
 Anna Langstroff, Marc~C Heuermann, Andreas Stahl, and Astrid Junker.
@@ -124,11 +123,13 @@ José~Luis Araus and Jill~E. Cairns.
 P~Srivani, SH~Manjula, et~al.
 \newblock A controlled environment agriculture with hydroponics: variants, parameters, methodologies and challenges for smart farming.
 \newblock In \emph{2019 Fifteenth International Conference on Information Processing (ICINPRO)}, pages 1--8. IEEE, 2019.
+\newblock \doi{10.1109/ICInPro47689.2019.9092043}.
 
 \bibitem[Cooper et~al.(2022)Cooper, Messina, Tang, Gho, Powell, Podlich, Technow, and Hammer]{cooper2022predicting}
 Mark Cooper, Carlos~D Messina, Tom Tang, Carla Gho, Owen~M Powell, Dean~W Podlich, Frank Technow, and Graeme~L Hammer.
-\newblock Predicting genotype$\times$ environment$\times$ management (g$\times$ e$\times$ m) interactions for the design of crop improvement strategies: integrating breeder, agronomist, and farmer perspectives.
-\newblock \emph{Plant breeding reviews}, 46:\penalty0 467--585, 2022.
+\newblock Predicting genotype$\times$ environment $\times$ management (g $\times$ e $\times$ m) interactions for the design of crop improvement strategies: integrating breeder, agronomist, and farmer perspectives.
+\newblock \emph{Plant breeding reviews}, pages 467--585, 2022.
+\newblock \doi{10.1002/9781119874157.ch8}.
 
 \bibitem[Messina et~al.(2018)Messina, Technow, Tang, Totir, Gho, and Cooper]{MESSINA2018151}
 C.D. Messina, F.~Technow, T.~Tang, R.~Totir, C.~Gho, and M.~Cooper.
@@ -136,7 +137,6 @@ C.D. Messina, F.~Technow, T.~Tang, R.~Totir, C.~Gho, and M.~Cooper.
 \newblock \emph{European Journal of Agronomy}, 100:\penalty0 151--162, 2018.
 \newblock ISSN 1161-0301.
 \newblock \doi{10.1016/j.eja.2018.01.007}.
-\newblock Recent advances in crop modelling to support sustainable agricultural production and food security under global change.
 
 \bibitem[Mahmood et~al.(2022)Mahmood, Ahmed, and Trethowan]{mahmood2022genotype}
 Tariq Mahmood, Talaat Ahmed, and Richard Trethowan.
@@ -154,6 +154,7 @@ V.~Brukhin and N.~Morozova.
 Bruce Alberts, Alexander Johnson, Julian Lewis, Martin Raff, Keith Roberts, and Peter Walter.
 \newblock Plant development.
 \newblock In \emph{Molecular Biology of the Cell. 4th edition}. Garland Science, 2002.
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/books/NBK26922/}.
 
 \bibitem[Fiorani and Schurr(2013)]{annurev-arplant-050312-120137}
 Fabio Fiorani and Ulrich Schurr.
@@ -179,6 +180,7 @@ Gianni Fenu and Francesca~Maridina Malloci.
 \newblock Forecasting plant and crop disease: An explorative study on current algorithms.
 \newblock \emph{Big Data and Cognitive Computing}, 5\penalty0 (1), 2021.
 \newblock ISSN 2504-2289.
+\newblock \doi{10.3390/bdcc5010002}.
 
 \bibitem[Basso et~al.(2016)Basso, Liu, and Ritchie]{BASSO201627}
 Bruno Basso, Lin Liu, and Joe~T. Ritchie.
@@ -192,7 +194,6 @@ J.W Jones, G~Hoogenboom, C.H Porter, K.J Boote, W.D Batchelor, L.A Hunt, P.W Wil
 \newblock \emph{European Journal of Agronomy}, 18\penalty0 (3):\penalty0 235--265, 2003.
 \newblock ISSN 1161-0301.
 \newblock \doi{10.1016/S1161-0301(02)00107-7}.
-\newblock Modelling Cropping Systems: Science, Software and Applications.
 
 \bibitem[N’guessan et~al.(2023)N’guessan, Adahi, Konan-Waidhet, Masayoshi, and Assidjo]{NGUESSAN2023276}
 Konan Jean-Yves N’guessan, Botou Adahi, Arthur-Brice Konan-Waidhet, Satoh Masayoshi, and Nogbou~Emmanuel Assidjo.
@@ -291,7 +292,6 @@ Sam Sultan, Joseph Snider, Adam Conn, Mao Li, Christopher~N. Topp, and Saket Nav
 \newblock A statistical growth property of plant root architectures.
 \newblock \emph{Plant Phenomics}, 2020, 2020.
 \newblock \doi{10.34133/2020/2073723}.
-\newblock URL \url{http://plant3d.navlakhalab.net/roots/}.
 
 \bibitem[Uchiyama et~al.(2017)Uchiyama, Sakurai, Mishima, Arita, Okayasu, Shimada, and Taniguchi]{Uchiyama2017Komatsuna}
 Hideaki Uchiyama, Shunsuke Sakurai, Masashi Mishima, Daisaku Arita, Takashi Okayasu, Atsushi Shimada, and Rin-ichiro Taniguchi.
@@ -310,6 +310,7 @@ Namal Jayasuriya, Oula Ghannoum, Wen Hu, Norbert Klause, Weiguang Liang, and Yi~
 Dmitrii~G. Shadrin, Victor Kulikov, and Maxim~V. Fedorov.
 \newblock Instance segmentation for assessment of plant growth dynamics in artificial soilless conditions.
 \newblock In \emph{British Machine Vision Conference}, 2018.
+\newblock URL \url{http://bmvc2018.org/contents/workshops/cvppp2018/0027.pdf}.
 
 \bibitem[Genze et~al.(2024)Genze, Vahl, Groth, Wirth, Grieb, and Grimm]{genze2024manually}
 Nikita Genze, Wouter~K Vahl, Jennifer Groth, Maximilian Wirth, Michael Grieb, and Dominik~G Grimm.
@@ -484,6 +485,7 @@ R~L Baker, W~F Leong, S~Welch, and C~Weinig.
 Diana~Marcela Perez-Valencia, Maria~Xose Rodriguez-Alvarez, Martin~P Boer, and Fred~A van Eeuwijk.
 \newblock A one-stage approach for the spatio-temporal analysis of high-throughput phenotyping data.
 \newblock \emph{Journal of Agricultural, Biological and Environmental Statistics}, pages 1--23, 2024.
+\newblock \doi{10.1007/s13253-024-00642-w}.
 
 \bibitem[Teressa et~al.(2021)Teressa, Semahegn, and Bejiga]{teressa2021multi}
 Temesgen Teressa, Zigale Semahegn, and Tamirat Bejiga.
@@ -537,6 +539,7 @@ Ryan~N Gutenkunst, Joshua~J Waterfall, Fergal~P Casey, Kevin~S Brown, Christophe
 Robert~H Shumway, David~S Stoffer, and David~S Stoffer.
 \newblock \emph{Time series analysis and its applications}, volume~3.
 \newblock Springer, 2000.
+\newblock \doi{10.1007/978-3-031-70584-7}.
 
 \bibitem[Nesteruk et~al.(2020)Nesteruk, Shadrin, Kovalenko, Rodr{\'i}guez-S{\'a}nchez, and Somov]{Sergey9152399}
 Sergey Nesteruk, Dmitrii Shadrin, Vladislav Kovalenko, Antonio Rodr{\'i}guez-S{\'a}nchez, and Andrey Somov.
@@ -750,6 +753,7 @@ Aristid Lindenmayer.
 Przemyslaw Prusinkiewicz and Aristid Lindenmayer.
 \newblock \emph{The algorithmic beauty of plants}.
 \newblock Springer Science \& Business Media, 2012.
+\newblock \doi{10.1007/978-1-4613-8476-2}.
 
 \bibitem[Prusinkiewicz et~al.(2018)Prusinkiewicz, Cieslak, Ferraro, and Hanan]{Prusinkiewicz2018}
 Przemyslaw Prusinkiewicz, Mikolaj Cieslak, Pascal Ferraro, and Jim Hanan.
@@ -901,7 +905,9 @@ Priscilla~Ntuchu Kephe, Kingsley~Kwabena Ayisi, and Brilliant~Mareme Petja.
 
 \bibitem[Roscher et~al.(2023)Roscher, Roth, Stachniss, and Walter]{roscher2023datacentricdigitalagricultureperspective}
 Ribana Roscher, Lukas Roth, Cyrill Stachniss, and Achim Walter.
-\newblock Data-centric digital agriculture: A perspective, 2023.
+\newblock Data-centric digital agriculture: A perspective.
+\newblock \emph{arXiv preprint arXiv:2312.03437}, 2023.
+\newblock \doi{10.48550/arXiv.2312.03437}.
 
 \bibitem[Harandi et~al.(2023)Harandi, Vandenberghe, Vankerschaver, Depuydt, and Van~Messem]{harandi2023make}
 Negin Harandi, Breght Vandenberghe, Joris Vankerschaver, Stephen Depuydt, and Arnout Van~Messem.
